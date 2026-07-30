@@ -1,0 +1,1691 @@
+Pacer Staffing · L&D
+Visa & Work Authorization
+Reading Progress
+1 of 7 sections
+Overview
+Introduction & Agenda
+Part A — Employment
+US Economy & Geography
+Job Types: PERM / C / C2H
+W-2, 1099 & the Compliance Line
+Part B — Visas
+Visa Overview & Types
+Decision Matrix
+Screening Scenarios
+Reference
+Common Mistakes
+Practice Quiz
+Glossary
+Week 2 · Fresher Onboarding
+US Visas, Employment Types & Work Authorization
+Every piece of knowledge in this module will appear within the first 5 minutes of a screening call. You are not learning US immigration law for its own sake — you are learning it because you will use it every single day.
+
+2-Part Session
+24 Slides Source Deck
+Est. 2 hrs with activities
+Fresher Recruitment Executives
+What This Session Covers
+Two parts, one goal: when a candidate tells you their work auth status, you know instantly what it means and what to do next.
+
+Part A
+US Context & Employment Types
+Why the US is the world's largest staffing market
+US geography, time zones, and your working day
+Permanent (W-2) vs Contract (1099) vs Contract-to-Hire (C2H)
+Tax classifications and why clients care
+The W-2 only rule — the compliance line you must never cross
+Part B
+Visas, Work Auth & Daily Use
+Immigrant vs non-immigrant visas — the fundamental split
+F-1 / OPT / STEM OPT — the student work auth path
+H-1B — what it means for your placements
+Green Card & EAD — the best work auth outcomes
+TN / L-1 / O-1 — other visa types you will encounter
+Work auth decision matrix — can this person work on this req?
+🎯
+The Goal of This Module
+By the end of this document + trainer session, you will be able to: ask the right work auth question on every call, recognise which visa types are acceptable for a given req, and avoid the most common compliance mistakes that new recruiters make.
+
+How to Use This Reference
+This document has three life stages in your training:
+
+Stage 1
+Pre-Read
+Read through before the trainer session. You don't need to memorise everything — just get familiar with the vocabulary and structure. The trainer will explain the nuances.
+
+Stage 2
+Deep Revision
+After the session, come back and read with the trainer's explanations in mind. Use the quiz section to test yourself. Aim to explain each concept aloud in your own words.
+
+Stage 3
+On-the-Job Quick Ref
+During live calls and submissions, use the Decision Matrix page and the Screening Scenarios page as a 10-second lookup. Bookmark this file for daily use.
+
+
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visa & Work Authorization — US Staffing Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f1f3d;
+    --navy-mid: #1a3060;
+    --navy-light: #243d78;
+    --gold: #c9983a;
+    --gold-light: #e8b84a;
+    --teal: #1e8a7c;
+    --teal-light: #25a896;
+    --teal-pale: #e0f5f2;
+    --red: #c0392b;
+    --red-pale: #fdf0ee;
+    --amber: #d47a1a;
+    --amber-pale: #fef6ea;
+    --green: #1a7a4a;
+    --green-pale: #e8f7ef;
+    --cream: #fdf8f0;
+    --white: #ffffff;
+    --text-dark: #1a1a2e;
+    --text-mid: #3d4460;
+    --text-light: #6b728a;
+    --border: #dde3ef;
+    --sidebar-w: 270px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--text-dark);display:flex;min-height:100vh;}
+
+  /* ─── SIDEBAR ─── */
+  #sidebar{
+    width:var(--sidebar-w);min-width:var(--sidebar-w);
+    background:var(--navy);color:#ccd5e8;
+    position:fixed;top:0;left:0;height:100vh;
+    overflow-y:auto;z-index:100;
+    display:flex;flex-direction:column;
+  }
+  .sb-brand{
+    padding:24px 20px 16px;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .sb-brand .tag{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:6px;}
+  .sb-brand h1{font-family:'Playfair Display',serif;font-size:17px;color:#fff;line-height:1.4;}
+  .sb-section{padding:14px 0 4px 20px;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-top:4px;}
+  .sb-nav a{
+    display:block;padding:8px 20px 8px 20px;
+    font-size:13px;color:#a8b4cc;text-decoration:none;
+    border-left:3px solid transparent;
+    transition:all .2s;line-height:1.4;
+  }
+  .sb-nav a:hover,.sb-nav a.active{color:#fff;border-left-color:var(--gold);background:rgba(201,152,58,0.08);}
+  .sb-nav a.sub{padding-left:32px;font-size:12px;color:#8090a8;}
+  .sb-nav a.sub:hover,.sb-nav a.sub.active{color:#c9d4e8;border-left-color:var(--teal);}
+  .sb-progress{
+    margin:16px 16px 20px;background:rgba(255,255,255,0.06);
+    border-radius:8px;padding:12px 14px;
+  }
+  .sb-progress .label{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+  .prog-bar{background:rgba(255,255,255,0.1);border-radius:4px;height:5px;overflow:hidden;}
+  .prog-fill{background:linear-gradient(90deg,var(--teal),var(--gold));height:100%;width:0%;transition:width .5s;}
+  .prog-text{font-size:11px;color:#8090a8;margin-top:5px;}
+
+  /* ─── MAIN ─── */
+  #main{margin-left:var(--sidebar-w);flex:1;padding:0;}
+  .page{display:none;animation:fadeIn .35s ease;}
+  .page.active{display:block;}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+  /* ─── TOP BANNER ─── */
+  .hero{
+    background:linear-gradient(135deg,var(--navy) 0%,var(--navy-mid) 55%,#162a52 100%);
+    padding:52px 52px 44px;position:relative;overflow:hidden;
+  }
+  .hero::before{
+    content:'';position:absolute;top:-60px;right:-80px;
+    width:340px;height:340px;
+    border:1px solid rgba(201,152,58,0.15);border-radius:50%;
+  }
+  .hero::after{
+    content:'';position:absolute;top:20px;right:40px;
+    width:180px;height:180px;
+    border:1px solid rgba(30,138,124,0.2);border-radius:50%;
+  }
+  .hero .part-badge{
+    display:inline-block;background:rgba(201,152,58,0.15);
+    border:1px solid rgba(201,152,58,0.3);
+    color:var(--gold-light);font-size:11px;letter-spacing:2px;text-transform:uppercase;
+    padding:5px 14px;border-radius:20px;margin-bottom:16px;
+  }
+  .hero h2{font-family:'Playfair Display',serif;font-size:36px;color:#fff;line-height:1.2;max-width:620px;margin-bottom:12px;}
+  .hero p{font-size:15px;color:#8fa3c8;max-width:580px;line-height:1.6;}
+  .hero .meta{display:flex;gap:24px;margin-top:24px;flex-wrap:wrap;}
+  .hero .meta span{font-size:12px;color:#6080a8;display:flex;align-items:center;gap:6px;}
+  .hero .meta span::before{content:'•';color:var(--teal);}
+
+  /* ─── CONTENT AREA ─── */
+  .content-wrap{padding:44px 52px 60px;}
+
+  /* ─── SECTION HEADERS ─── */
+  .sec-title{
+    font-family:'Playfair Display',serif;font-size:26px;color:var(--navy);
+    margin-bottom:8px;padding-bottom:12px;
+    border-bottom:2px solid var(--gold);display:inline-block;
+  }
+  .sec-sub{font-size:14px;color:var(--text-light);margin-bottom:28px;line-height:1.6;}
+
+  /* ─── CALLOUT BOXES ─── */
+  .callout{border-radius:10px;padding:18px 22px;margin:20px 0;display:flex;gap:14px;align-items:flex-start;}
+  .callout-icon{font-size:22px;flex-shrink:0;margin-top:1px;}
+  .callout-body h4{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px;}
+  .callout-body p{font-size:14px;line-height:1.6;}
+  .callout.info{background:var(--teal-pale);border-left:4px solid var(--teal);}
+  .callout.info .callout-body h4{color:var(--teal);}
+  .callout.warn{background:var(--amber-pale);border-left:4px solid var(--amber);}
+  .callout.warn .callout-body h4{color:var(--amber);}
+  .callout.danger{background:var(--red-pale);border-left:4px solid var(--red);}
+  .callout.danger .callout-body h4{color:var(--red);}
+  .callout.success{background:var(--green-pale);border-left:4px solid var(--green);}
+  .callout.success .callout-body h4{color:var(--green);}
+  .callout.gold{background:#fdf5e0;border-left:4px solid var(--gold);}
+  .callout.gold .callout-body h4{color:#9a6e0f;}
+
+  /* ─── STATS ROW ─── */
+  .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:24px 0;}
+  .stat-card{
+    background:#fff;border-radius:12px;padding:22px 18px;
+    border:1px solid var(--border);text-align:center;
+    box-shadow:0 2px 8px rgba(15,31,61,0.05);
+  }
+  .stat-card .val{font-family:'Playfair Display',serif;font-size:30px;color:var(--navy);font-weight:700;}
+  .stat-card .lbl{font-size:11px;color:var(--text-light);margin-top:5px;line-height:1.4;}
+
+  /* ─── CARDS GRID ─── */
+  .cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin:24px 0;}
+  .card{background:#fff;border-radius:12px;padding:24px;border:1px solid var(--border);box-shadow:0 2px 10px rgba(15,31,61,0.06);}
+  .card .card-badge{
+    display:inline-block;padding:3px 10px;border-radius:12px;
+    font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  .card.perm .card-badge{background:#e3f0ff;color:#1a5aad;}
+  .card.contract .card-badge{background:#fff0db;color:#b56a00;}
+  .card.c2h .card-badge{background:#e8f7ef;color:#1a7a4a;}
+  .card h3{font-family:'Playfair Display',serif;font-size:18px;color:var(--navy);margin-bottom:8px;}
+  .card p{font-size:13.5px;color:var(--text-mid);line-height:1.6;margin-bottom:12px;}
+  .card ul{list-style:none;padding:0;}
+  .card ul li{font-size:13px;color:var(--text-mid);padding:4px 0 4px 18px;position:relative;line-height:1.5;}
+  .card ul li::before{content:'→';position:absolute;left:0;color:var(--teal);font-size:11px;top:5px;}
+  .card .pitch{
+    background:var(--teal-pale);border-radius:8px;padding:12px 14px;
+    margin-top:14px;font-size:13px;color:#155f54;font-style:italic;line-height:1.5;
+  }
+  .card .pitch::before{content:'💬 Say: ';font-style:normal;font-weight:600;}
+
+  /* ─── COMPARISON TABLE ─── */
+  .comp-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13.5px;}
+  .comp-table th{background:var(--navy);color:#fff;padding:12px 14px;text-align:left;font-weight:600;font-size:12px;letter-spacing:.4px;}
+  .comp-table th:first-child{border-radius:8px 0 0 0;}
+  .comp-table th:last-child{border-radius:0 8px 0 0;}
+  .comp-table td{padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  .comp-table tr:nth-child(even) td{background:rgba(15,31,61,0.025);}
+  .comp-table tr:last-child td:first-child{border-radius:0 0 0 8px;}
+  .comp-table tr:last-child td:last-child{border-radius:0 0 8px 0;}
+  .comp-table .good{color:var(--green);font-weight:600;}
+  .comp-table .warn{color:var(--amber);font-weight:600;}
+  .comp-table .bad{color:var(--red);font-weight:600;}
+
+  /* ─── MATRIX TABLE ─── */
+  .matrix-wrap{overflow-x:auto;margin:20px 0;}
+  .matrix-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:680px;}
+  .matrix-table th{background:var(--navy-mid);color:#fff;padding:10px 12px;text-align:center;font-size:11px;letter-spacing:.4px;}
+  .matrix-table th:first-child{text-align:left;}
+  .matrix-table td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:middle;}
+  .matrix-table td:not(:first-child){text-align:center;}
+  .matrix-table tr:nth-child(even) td{background:rgba(15,31,61,0.025);}
+  .matrix-table .auth-name{font-weight:600;color:var(--navy);}
+  .badge-accept{display:inline-block;background:#e8f7ef;color:var(--green);border:1px solid #b8dfc8;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:700;}
+  .badge-decline{display:inline-block;background:var(--red-pale);color:var(--red);border:1px solid #f1b8b2;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:700;}
+  .badge-check{display:inline-block;background:var(--amber-pale);color:var(--amber);border:1px solid #f5c888;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:700;}
+
+  /* ─── TIMELINE / FLOW ─── */
+  .flow-row{display:flex;align-items:center;gap:0;margin:24px 0;flex-wrap:wrap;}
+  .flow-step{
+    background:#fff;border:1px solid var(--border);border-radius:10px;
+    padding:16px 18px;flex:1;min-width:160px;
+    box-shadow:0 2px 6px rgba(15,31,61,0.06);
+  }
+  .flow-step .step-num{font-size:10px;color:var(--teal);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;}
+  .flow-step h4{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:5px;}
+  .flow-step p{font-size:12px;color:var(--text-light);line-height:1.5;}
+  .flow-arrow{font-size:22px;color:var(--gold);padding:0 8px;flex-shrink:0;}
+
+  /* ─── VISA CARDS ─── */
+  .visa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin:24px 0;}
+  .visa-card{background:#fff;border-radius:12px;padding:24px;border:1px solid var(--border);border-top:4px solid var(--navy);}
+  .visa-card.f1{border-top-color:#3a7bd5;}
+  .visa-card.h1b{border-top-color:#c0392b;}
+  .visa-card.gc{border-top-color:var(--green);}
+  .visa-card.ead{border-top-color:var(--teal);}
+  .visa-card.tn{border-top-color:var(--gold);}
+  .visa-card.l1{border-top-color:#7b52ab;}
+  .visa-card.o1{border-top-color:#e67e22;}
+  .visa-card .vc-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;}
+  .visa-card h3{font-family:'Playfair Display',serif;font-size:18px;color:var(--navy);}
+  .visa-card .vc-code{font-family:'Source Code Pro',monospace;font-size:22px;color:var(--border);font-weight:500;}
+  .visa-card .vc-row{display:flex;gap:8px;align-items:flex-start;margin:7px 0;font-size:13px;}
+  .visa-card .vc-label{color:var(--text-light);min-width:100px;flex-shrink:0;font-weight:500;}
+  .visa-card .vc-val{color:var(--text-dark);line-height:1.5;}
+  .visa-card .vc-tip{
+    margin-top:14px;background:#f8f4ff;border-left:3px solid #7b52ab;
+    padding:10px 12px;border-radius:0 6px 6px 0;font-size:12.5px;color:#4a3065;line-height:1.5;
+  }
+  .visa-card.gc .vc-tip{background:var(--green-pale);border-left-color:var(--green);color:#1a4530;}
+  .visa-card.h1b .vc-tip{background:var(--red-pale);border-left-color:var(--red);color:#6a1a14;}
+  .visa-card.tn .vc-tip{background:#fdf5e0;border-left-color:var(--gold);color:#6a4810;}
+  .visa-card.ead .vc-tip{background:var(--teal-pale);border-left-color:var(--teal);color:#0d4a42;}
+
+  /* ─── SCENARIO CARDS ─── */
+  .scenario{background:#fff;border-radius:12px;margin:20px 0;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 10px rgba(15,31,61,0.07);}
+  .scenario-header{padding:16px 22px;display:flex;align-items:center;gap:12px;}
+  .scenario.opta .scenario-header{background:linear-gradient(135deg,#1a3875,#243d78);}
+  .scenario.h1bscen .scenario-header{background:linear-gradient(135deg,#7a1a14,#9c251e);}
+  .scenario.gcscen .scenario-header{background:linear-gradient(135deg,#1a5a35,#1a7a4a);}
+  .scenario-header .scen-badge{font-family:'Source Code Pro',monospace;font-size:26px;color:rgba(255,255,255,0.2);font-weight:700;margin-left:auto;}
+  .scenario-header h3{font-family:'Playfair Display',serif;font-size:18px;color:#fff;}
+  .scenario-header p{font-size:13px;color:rgba(255,255,255,0.7);}
+  .scenario-body{padding:22px 24px;}
+  .ask-block{margin-bottom:16px;}
+  .ask-block h4{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal);margin-bottom:10px;}
+  .ask-block ul{list-style:none;padding:0;}
+  .ask-block ul li{
+    font-size:13.5px;color:var(--text-mid);padding:7px 0 7px 22px;
+    position:relative;border-bottom:1px solid var(--border);
+    font-family:'Source Code Pro',monospace;
+  }
+  .ask-block ul li:last-child{border-bottom:none;}
+  .ask-block ul li::before{content:'"';position:absolute;left:0;color:var(--teal);font-size:18px;top:4px;font-family:serif;}
+  .say-block{background:var(--green-pale);border-radius:8px;padding:14px 18px;font-size:13.5px;color:#1a4530;font-style:italic;line-height:1.6;margin-bottom:14px;}
+  .say-block::before{content:'Say: ';font-style:normal;font-weight:700;color:var(--green);}
+  .flag-block{background:var(--red-pale);border-radius:8px;padding:12px 16px;font-size:13px;color:#7a2a22;margin-top:8px;}
+  .flag-block::before{content:'🚩 Red Flag: ';font-weight:700;}
+  .action-block{background:var(--amber-pale);border-radius:8px;padding:12px 16px;font-size:13px;color:#7a4a10;margin-top:8px;}
+  .action-block::before{content:'→ Action: ';font-weight:700;}
+
+  /* ─── MISTAKES LIST ─── */
+  .mistakes-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+  .mistake{background:#fff;border-radius:10px;padding:20px;border:1px solid var(--border);border-left:4px solid var(--red);}
+  .mistake .m-num{font-family:'Playfair Display',serif;font-size:36px;color:rgba(192,57,43,0.15);font-weight:700;float:right;margin-top:-6px;}
+  .mistake h4{font-size:14px;font-weight:700;color:var(--red);margin-bottom:8px;}
+  .mistake p{font-size:13px;color:var(--text-mid);line-height:1.6;}
+  .mistake .fix{margin-top:10px;font-size:12.5px;color:var(--green);font-weight:600;}
+  .mistake .fix::before{content:'✓ Fix: ';}
+
+  /* ─── TZ TABLE ─── */
+  .tz-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0;}
+  .tz-card{background:#fff;border-radius:10px;padding:16px;border:1px solid var(--border);text-align:center;}
+  .tz-card .zone{font-size:22px;font-weight:700;font-family:'Playfair Display',serif;color:var(--navy);margin-bottom:4px;}
+  .tz-card .tz-name{font-size:11px;color:var(--text-light);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+  .tz-card .states{font-size:11.5px;color:var(--text-mid);margin-bottom:8px;line-height:1.6;}
+  .tz-card .ist{font-size:12px;color:var(--teal);font-weight:600;}
+
+  /* ─── TAKEAWAYS ─── */
+  .takeaways-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+  .takeaway{background:#fff;border-radius:12px;padding:22px;border:1px solid var(--border);display:flex;gap:16px;}
+  .takeaway .t-num{
+    width:36px;height:36px;background:var(--navy);color:#fff;
+    border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:'Playfair Display',serif;font-size:16px;font-weight:700;flex-shrink:0;
+  }
+  .takeaway h4{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px;}
+  .takeaway p{font-size:13px;color:var(--text-mid);line-height:1.6;}
+
+  /* ─── QUIZ ─── */
+  .quiz-wrap{margin:24px 0;}
+  .q-card{background:#fff;border-radius:12px;padding:24px;border:1px solid var(--border);margin-bottom:16px;}
+  .q-card h4{font-size:15px;font-weight:600;color:var(--navy);margin-bottom:16px;line-height:1.5;}
+  .q-card .q-num{font-size:10px;color:var(--teal);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;}
+  .options{display:flex;flex-direction:column;gap:8px;}
+  .opt{
+    padding:11px 16px;border-radius:8px;border:1.5px solid var(--border);
+    cursor:pointer;font-size:13.5px;color:var(--text-mid);
+    transition:all .2s;background:#fff;
+  }
+  .opt:hover{border-color:var(--teal);color:var(--teal);background:var(--teal-pale);}
+  .opt.correct{background:var(--green-pale)!important;border-color:var(--green)!important;color:var(--green)!important;font-weight:600;}
+  .opt.wrong{background:var(--red-pale)!important;border-color:var(--red)!important;color:var(--red)!important;}
+  .q-feedback{margin-top:12px;padding:12px 16px;border-radius:8px;font-size:13.5px;display:none;line-height:1.6;}
+  .q-feedback.show{display:block;}
+  .q-feedback.ok{background:var(--green-pale);color:var(--green);}
+  .q-feedback.no{background:var(--red-pale);color:var(--red);}
+  .quiz-score{background:var(--navy);color:#fff;border-radius:12px;padding:24px;text-align:center;display:none;}
+  .quiz-score .score-val{font-family:'Playfair Display',serif;font-size:52px;color:var(--gold);}
+  .quiz-score p{font-size:14px;color:#8fa3c8;margin-top:6px;}
+  #quiz-btn{
+    background:var(--teal);color:#fff;border:none;padding:12px 28px;
+    border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;
+    margin-top:8px;transition:background .2s;
+  }
+  #quiz-btn:hover{background:var(--teal-light);}
+
+  /* ─── GLOSSARY ─── */
+  .gloss-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0;}
+  .gloss-item{background:#fff;border-radius:8px;padding:14px 16px;border:1px solid var(--border);}
+  .gloss-item .term{font-family:'Source Code Pro',monospace;font-size:13px;font-weight:600;color:var(--navy);margin-bottom:5px;}
+  .gloss-item .def{font-size:12.5px;color:var(--text-mid);line-height:1.5;}
+
+  /* ─── DIVIDERS ─── */
+  .divider{border:none;border-top:1px solid var(--border);margin:36px 0;}
+  .part-divider{
+    background:linear-gradient(135deg,var(--navy),var(--navy-light));
+    border-radius:12px;padding:22px 28px;margin:32px 0;
+    display:flex;align-items:center;gap:20px;
+  }
+  .part-divider .pd-letter{
+    font-family:'Playfair Display',serif;font-size:52px;
+    color:rgba(255,255,255,0.15);font-weight:700;line-height:1;
+  }
+  .part-divider h3{font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:4px;}
+  .part-divider p{font-size:13px;color:#8fa3c8;}
+
+  /* ─── FORMULA BOX ─── */
+  .formula{
+    background:var(--navy);color:#fff;border-radius:10px;padding:20px 24px;
+    font-family:'Source Code Pro',monospace;font-size:14px;margin:16px 0;
+    line-height:1.8;
+  }
+  .formula .comment{color:#5a7a9a;font-size:12px;}
+  .formula .highlight{color:var(--gold);}
+
+  /* ─── NAV LINKS AT BOTTOM ─── */
+  .page-nav{display:flex;justify-content:space-between;margin-top:50px;padding-top:24px;border-top:1px solid var(--border);}
+  .nav-btn{
+    background:#fff;border:1.5px solid var(--border);border-radius:8px;
+    padding:10px 20px;font-size:13px;color:var(--navy);cursor:pointer;
+    transition:all .2s;font-weight:600;font-family:'Source Sans 3',sans-serif;
+  }
+  .nav-btn:hover{border-color:var(--teal);color:var(--teal);}
+  .nav-btn.primary{background:var(--navy);color:#fff;border-color:var(--navy);}
+  .nav-btn.primary:hover{background:var(--navy-light);}
+
+  /* ─── SUB-TABS ─── */
+  .tabs{display:flex;gap:0;margin-bottom:28px;border-bottom:2px solid var(--border);overflow-x:auto;}
+  .tab{
+    padding:10px 20px;font-size:13px;font-weight:600;cursor:pointer;
+    color:var(--text-light);border-bottom:2px solid transparent;margin-bottom:-2px;
+    transition:all .2s;white-space:nowrap;
+  }
+  .tab.active{color:var(--teal);border-bottom-color:var(--teal);}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;animation:fadeIn .3s ease;}
+
+  /* ─── CHECKLIST ─── */
+  .checklist{list-style:none;padding:0;margin:16px 0;}
+  .checklist li{
+    display:flex;gap:12px;align-items:flex-start;
+    padding:9px 0;border-bottom:1px solid var(--border);font-size:13.5px;
+  }
+  .checklist li:last-child{border-bottom:none;}
+  .checklist li input[type=checkbox]{width:16px;height:16px;margin-top:2px;accent-color:var(--teal);flex-shrink:0;cursor:pointer;}
+  .checklist li .cl-text{line-height:1.5;color:var(--text-mid);}
+  .checklist li .cl-text strong{color:var(--text-dark);}
+
+  /* ─── RESPONSIVE ─── */
+  @media(max-width:900px){
+    #sidebar{transform:translateX(-100%);transition:transform .3s;}
+    #sidebar.open{transform:translateX(0);}
+    #main{margin-left:0;}
+    .content-wrap{padding:24px 20px 40px;}
+    .hero{padding:32px 24px;}
+    .stats-row{grid-template-columns:1fr 1fr;}
+    .mistakes-grid{grid-template-columns:1fr;}
+    .takeaways-grid{grid-template-columns:1fr;}
+    .gloss-grid{grid-template-columns:1fr;}
+    .tz-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════ SIDEBAR ═══════════════════════ -->
+<nav id="sidebar">
+  <div class="sb-brand">
+    <div class="tag">Pacer Staffing · L&D</div>
+    <h1>Visa & Work Authorization</h1>
+  </div>
+  <div class="sb-progress">
+    <div class="label">Reading Progress</div>
+    <div class="prog-bar"><div class="prog-fill" id="progFill"></div></div>
+    <div class="prog-text" id="progText">0 of 6 sections</div>
+  </div>
+
+  <div class="sb-section">Overview</div>
+  <div class="sb-nav">
+    <a href="#" onclick="showPage('intro');return false;" data-page="intro">Introduction & Agenda</a>
+  </div>
+
+  <div class="sb-section">Part A — Employment</div>
+  <div class="sb-nav">
+    <a href="#" onclick="showPage('usa');return false;" data-page="usa" class="sub">US Economy & Geography</a>
+    <a href="#" onclick="showPage('jobtypes');return false;" data-page="jobtypes" class="sub">Job Types: PERM / C / C2H</a>
+    <a href="#" onclick="showPage('w2_1099');return false;" data-page="w2_1099" class="sub">W-2, 1099 & the Compliance Line</a>
+  </div>
+
+  <div class="sb-section">Part B — Visas</div>
+  <div class="sb-nav">
+    <a href="#" onclick="showPage('visa_overview');return false;" data-page="visa_overview" class="sub">Visa Overview & Types</a>
+    <a href="#" onclick="showPage('decision');return false;" data-page="decision" class="sub">Decision Matrix</a>
+    <a href="#" onclick="showPage('scenarios');return false;" data-page="scenarios" class="sub">Screening Scenarios</a>
+  </div>
+
+  <div class="sb-section">Reference</div>
+  <div class="sb-nav">
+    <a href="#" onclick="showPage('mistakes');return false;" data-page="mistakes">Common Mistakes</a>
+    <a href="#" onclick="showPage('quiz');return false;" data-page="quiz">Practice Quiz</a>
+    <a href="#" onclick="showPage('glossary');return false;" data-page="glossary">Glossary</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ MAIN CONTENT ═══════════════════════ -->
+<main id="main">
+
+<!-- ─── PAGE: INTRO ─── -->
+<div id="pg-intro" class="page active">
+  <div class="hero">
+    <div class="part-badge">Week 2 · Fresher Onboarding</div>
+    <h2>US Visas, Employment Types &amp; Work Authorization</h2>
+    <p>Every piece of knowledge in this module will appear within the first 5 minutes of a screening call. You are not learning US immigration law for its own sake — you are learning it because you will use it every single day.</p>
+    <div class="meta">
+      <span>2-Part Session</span>
+      <span>24 Slides Source Deck</span>
+      <span>Est. 2 hrs with activities</span>
+      <span>Fresher Recruitment Executives</span>
+    </div>
+  </div>
+  <div class="content-wrap">
+    <h2 class="sec-title">What This Session Covers</h2>
+    <p class="sec-sub">Two parts, one goal: when a candidate tells you their work auth status, you know instantly what it means and what to do next.</p>
+
+    <div class="cards-grid">
+      <div class="card perm">
+        <div class="card-badge">Part A</div>
+        <h3>US Context & Employment Types</h3>
+        <ul>
+          <li>Why the US is the world's largest staffing market</li>
+          <li>US geography, time zones, and your working day</li>
+          <li>Permanent (W-2) vs Contract (1099) vs Contract-to-Hire (C2H)</li>
+          <li>Tax classifications and why clients care</li>
+          <li>The W-2 only rule — the compliance line you must never cross</li>
+        </ul>
+      </div>
+      <div class="card contract">
+        <div class="card-badge">Part B</div>
+        <h3>Visas, Work Auth & Daily Use</h3>
+        <ul>
+          <li>Immigrant vs non-immigrant visas — the fundamental split</li>
+          <li>F-1 / OPT / STEM OPT — the student work auth path</li>
+          <li>H-1B — what it means for your placements</li>
+          <li>Green Card & EAD — the best work auth outcomes</li>
+          <li>TN / L-1 / O-1 — other visa types you will encounter</li>
+          <li>Work auth decision matrix — can this person work on this req?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout gold">
+      <div class="callout-icon">🎯</div>
+      <div class="callout-body">
+        <h4>The Goal of This Module</h4>
+        <p>By the end of this document + trainer session, you will be able to: ask the right work auth question on every call, recognise which visa types are acceptable for a given req, and avoid the most common compliance mistakes that new recruiters make.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <h2 class="sec-title">How to Use This Reference</h2>
+    <p class="sec-sub">This document has three life stages in your training:</p>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-badge">Stage 1</div>
+        <h3>Pre-Read</h3>
+        <p>Read through before the trainer session. You don't need to memorise everything — just get familiar with the vocabulary and structure. The trainer will explain the nuances.</p>
+      </div>
+      <div class="card">
+        <div class="card-badge">Stage 2</div>
+        <h3>Deep Revision</h3>
+        <p>After the session, come back and read with the trainer's explanations in mind. Use the quiz section to test yourself. Aim to explain each concept aloud in your own words.</p>
+      </div>
+      <div class="card">
+        <div class="card-badge">Stage 3</div>
+        <h3>On-the-Job Quick Ref</h3>
+        <p>During live calls and submissions, use the Decision Matrix page and the Screening Scenarios page as a 10-second lookup. Bookmark this file for daily use.</p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <span></span>
+      <button class="nav-btn primary" onclick="showPage('usa')">Start: US Economy & Geography →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: USA CONTEXT ─── -->
+<div id="pg-usa" class="page">
+  <div class="hero">
+    <div class="part-badge">Part A · Section 1</div>
+    <h2>The US Economy, Staffing Market &amp; Your Working Day</h2>
+    <p>You are recruiting for US companies from India. Understanding the scale and structure of this market makes everything else make sense.</p>
+  </div>
+  <div class="content-wrap">
+
+    <h2 class="sec-title">Why the US Staffing Market?</h2>
+    <p class="sec-sub">The scale of this market is not abstract — it explains why your job exists and why it matters.</p>
+    <div class="stats-row">
+      <div class="stat-card"><div class="val">$27T+</div><div class="lbl">US GDP — world's largest economy</div></div>
+      <div class="stat-card"><div class="val">$218B+</div><div class="lbl">US staffing industry annual revenue</div></div>
+      <div class="stat-card"><div class="val">3M+</div><div class="lbl">Workers placed every single week</div></div>
+      <div class="stat-card"><div class="val">~40%</div><div class="lbl">Fortune 500 workforce is contingent/contract</div></div>
+    </div>
+
+    <h2 class="sec-title" style="margin-top:32px;">Why Does the US Use So Much Contract Labour?</h2>
+    <div class="cards-grid">
+      <div class="card"><h3>At-Will Employment</h3><p>US employment law is "at-will" — employers can terminate without cause. This makes hiring less risky, but also makes temporary contracts the norm. If a hire doesn't work out, a contract ends cleanly.</p></div>
+      <div class="card"><h3>Seasonal & Project Demand</h3><p>US companies scale up for product launches, seasonal peaks, and specific projects — then scale back. Contract staffing is the mechanism for flexible workforce sizing.</p></div>
+      <div class="card"><h3>Cost Efficiency</h3><p>A contract worker on W-2 through an agency costs the client a bill rate — no health insurance, 401k, or PTO obligation. Significant cost savings vs. a permanent hire.</p></div>
+      <div class="card"><h3>Speed</h3><p>Staffing agencies can place a qualified contractor in 48–72 hours. Permanent hiring takes 4–8 weeks. When a project starts, speed wins.</p></div>
+      <div class="card"><h3>Compliance Outsourcing</h3><p>The agency handles employment taxes, background checks, drug tests, and compliance. The client takes the talent without the administrative burden.</p></div>
+    </div>
+
+    <hr class="divider">
+    <h2 class="sec-title">US Geography & Your Calling Window</h2>
+    <p class="sec-sub">There are 4 major US time zones. Knowing them determines when you pick up the phone.</p>
+
+    <div class="tz-grid">
+      <div class="tz-card">
+        <div class="zone">EST</div>
+        <div class="tz-name">Eastern Standard Time</div>
+        <div class="states">NY · NJ · FL · VA · PA · MA · NC · GA</div>
+        <div class="ist">9am EST = 7:30pm IST</div>
+      </div>
+      <div class="tz-card">
+        <div class="zone">CST</div>
+        <div class="tz-name">Central Standard Time</div>
+        <div class="states">TX · IL · TN · MN · WI · MO · AL</div>
+        <div class="ist">9am CST = 8:30pm IST</div>
+      </div>
+      <div class="tz-card">
+        <div class="zone">MST</div>
+        <div class="tz-name">Mountain Standard Time</div>
+        <div class="states">CO · AZ · NM · UT · ID</div>
+        <div class="ist">9am MST = 9:30pm IST</div>
+      </div>
+      <div class="tz-card">
+        <div class="zone">PST</div>
+        <div class="tz-name">Pacific Standard Time</div>
+        <div class="states">CA · WA · OR · NV</div>
+        <div class="ist">9am PST = 10:30pm IST</div>
+      </div>
+    </div>
+
+    <div class="callout info">
+      <div class="callout-icon">📞</div>
+      <div class="callout-body">
+        <h4>Your Effective Calling Window</h4>
+        <p><strong>6:30pm IST</strong> — Opens for EST candidates (New York, New Jersey, Florida). Start your calls here.<br>
+        <strong>7:30pm IST</strong> — Good for CST candidates (Texas, Illinois).<br>
+        <strong>9:30pm IST</strong> — MST candidates become reachable.<br>
+        <strong>10:30pm IST</strong> — PST California candidates are in office.<br>
+        <strong>11:30pm IST</strong> — Your calling window effectively closes for EST.<br><br>
+        If you try to call a California (PST) candidate at 6:00pm IST, you are calling them at 4:30am Pacific time. They will not pick up.</p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('intro')">← Introduction</button>
+      <button class="nav-btn primary" onclick="showPage('jobtypes')">Job Types: PERM / C / C2H →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: JOB TYPES ─── -->
+<div id="pg-jobtypes" class="page">
+  <div class="hero">
+    <div class="part-badge">Part A · Section 2</div>
+    <h2>Job Types — Permanent, Contract &amp; Contract-to-Hire</h2>
+    <p>Every job order falls into one of three categories. Your entire pitch to the candidate changes based on which one it is.</p>
+  </div>
+  <div class="content-wrap">
+
+    <h2 class="sec-title">The Three Job Types</h2>
+    <p class="sec-sub">Learn the definition, what the candidate receives, and the exact language to use on a call.</p>
+
+    <div class="cards-grid">
+      <div class="card perm">
+        <div class="card-badge">PERM — Permanent / Direct Hire</div>
+        <h3>Full-Time Employee</h3>
+        <p>Candidate is hired directly by the client company as a full-time employee. No defined end date. The staffing agency earns a one-time placement fee (typically 15–25% of first-year salary).</p>
+        <ul>
+          <li>Full salary with annual increases</li>
+          <li>Health, dental, vision, 401k, PTO</li>
+          <li>Job security and legal employment protections</li>
+          <li>Career development and promotion path</li>
+        </ul>
+        <div class="pitch">This is a permanent, full-time role with the company itself. You would be their direct employee with full benefits from day one.</div>
+      </div>
+      <div class="card contract">
+        <div class="card-badge">C — Contract (Staff Aug)</div>
+        <h3>Defined-Duration Contract</h3>
+        <p>Candidate works on a defined-duration contract — typically 3–13 weeks (healthcare) or 6–12 months (IT). The agency is the employer of record. Client pays a bill rate per hour.</p>
+        <ul>
+          <li>Hourly rate (higher than equivalent perm salary)</li>
+          <li>W-2 via agency (benefits limited or none)</li>
+          <li>Defined end date — must find next role when contract ends</li>
+          <li>No guarantee of extension or conversion</li>
+        </ul>
+        <div class="pitch">This is a 6-month contract through our agency. Your pay is $XX/hr on W-2. Many of these roles extend — but I can't promise that upfront.</div>
+      </div>
+      <div class="card c2h">
+        <div class="card-badge">C2H — Contract-to-Hire</div>
+        <h3>Trial Period → Permanent</h3>
+        <p>Starts as a contract (typically 3–6 months) with a built-in possibility of converting to permanent employment if both parties agree. Very common in IT staffing.</p>
+        <ul>
+          <li>Higher hourly rate during contract phase</li>
+          <li>Trial period to assess the company</li>
+          <li>Clear path to permanent role if it goes well</li>
+          <li>Bridged to full benefits upon conversion</li>
+        </ul>
+        <div class="pitch">This starts as a 6-month contract at $XX/hr, but the client wants to convert the right person to permanent. Think of it as a paid interview.</div>
+      </div>
+    </div>
+
+    <div class="callout info">
+      <div class="callout-icon">💡</div>
+      <div class="callout-body">
+        <h4>The "Paid Interview" Framing for C2H</h4>
+        <p>Candidates who push back on C2H with "But I want a permanent job" are most effectively addressed with the paid interview reframe. It acknowledges their goal (permanent employment) while reframing the risk (contract period) as a benefit (trial period). Use this language every time.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <h2 class="sec-title">The C2H Rate-to-Salary Conversion Rule</h2>
+    <p class="sec-sub">Candidates often ask: "Why is the contract rate only $65/hr? The equivalent perm salary would be $90k." Here is how to answer that accurately.</p>
+
+    <div class="formula">
+      <span class="comment">// The 2,000-hour rule</span><br>
+      Hourly Rate × 2,000 = Gross Annual Income<br>
+      <span class="comment">// Example</span><br>
+      <span class="highlight">$65/hr × 2,000 = $130,000 gross per year</span><br><br>
+      <span class="comment">// But a W-2 contract worker also lacks benefits. Adjust:</span><br>
+      $130,000 × 0.65 (after tax + benefit cost equiv.) ≈ <span class="highlight">$84,500 salary equivalent</span><br><br>
+      <span class="comment">// The perm role at $90k also provides $20k in benefits (health, 401k, PTO)</span><br>
+      <span class="comment">// Total perm package = ~$110k. So $65/hr on W-2 is actually LOWER in total.</span><br>
+      <span class="comment">// That's why C2H rates are usually higher than perm salary equivalents.</span>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('usa')">← US Economy & Geography</button>
+      <button class="nav-btn primary" onclick="showPage('w2_1099')">W-2, 1099 & Compliance →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: W2 / 1099 ─── -->
+<div id="pg-w2_1099" class="page">
+  <div class="hero">
+    <div class="part-badge">Part A · Section 3</div>
+    <h2>W-2, 1099 &amp; The Compliance Line You Must Never Cross</h2>
+    <p>These are tax classifications, not just labels. Misclassifying a worker exposes your agency to federal penalties. Understand both types before you place a single candidate.</p>
+  </div>
+  <div class="content-wrap">
+
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab(this,'t-w2')">W-2 Employee</div>
+      <div class="tab" onclick="switchTab(this,'t-1099')">1099 Contractor</div>
+      <div class="tab" onclick="switchTab(this,'t-compare')">Side-by-Side Comparison</div>
+      <div class="tab" onclick="switchTab(this,'t-w2rule')">The W-2 Only Rule</div>
+    </div>
+
+    <div id="t-w2" class="tab-content active">
+      <h2 class="sec-title">W-2 Employment — What It Means</h2>
+      <p class="sec-sub">W-2 is the standard US employment tax classification. It covers both permanent hires AND contract workers placed through a staffing agency.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-badge">The Employer Does</div>
+          <h3>Tax Withholding</h3>
+          <p>Withholds income tax, Social Security (6.2%), and Medicare (1.45%) from every paycheck. Issues a W-2 form by January 31 showing total wages and taxes withheld.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge">The Candidate Gets</div>
+          <h3>Simplified Tax Filing</h3>
+          <p>Receives a paycheck with taxes already deducted. Files a simplified annual tax return. Shares FICA (Social Security + Medicare) costs 50/50 with the employer — each pays 7.65%.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge">In Staffing</div>
+          <h3>Agency is Employer of Record</h3>
+          <p>The AGENCY is the W-2 employer of record, not the client. The agency handles all payroll taxes, insurance, and compliance. The client pays the agency a bill rate. This is why your margin must cover more than overhead — it covers payroll tax matching.</p>
+        </div>
+      </div>
+      <div class="callout warn">
+        <div class="callout-icon">⚠️</div>
+        <div class="callout-body">
+          <h4>FICA Tax Split — W-2 vs 1099</h4>
+          <p>On a $100,000 income:<br>
+          <strong>W-2 employee</strong> pays ~$7,650 in FICA (employer matches another $7,650)<br>
+          <strong>1099 contractor</strong> pays ~$15,300 in self-employment tax (they are both employee AND employer)<br><br>
+          This is why contractors charge higher hourly rates — they are compensating for the doubled tax burden and lack of benefits.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="t-1099" class="tab-content">
+      <h2 class="sec-title">1099 Contractor — Self-Employed, Higher Rate, Higher Risk</h2>
+      <p class="sec-sub">1099 means self-employed. The candidate runs their own business. The client pays them directly. No middleman, no taxes withheld.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-badge">Key Characteristic</div>
+          <h3>Self-Employed Business Owner</h3>
+          <p>The contractor is running their own business. They set their rate, control how the work is done, and bear all financial risk. They invoice the client and receive the full amount — then pay taxes themselves quarterly.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge">Tax Burden</div>
+          <h3>Self-Employment Tax: 15.3%</h3>
+          <p>The contractor pays 15.3% FICA (vs 7.65% for a W-2 employee). They are both the employer and employee for tax purposes. They must file quarterly estimated taxes or face penalties.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge">IRS Control Test</div>
+          <h3>Are They Truly Independent?</h3>
+          <ul>
+            <li>Controls WHEN, WHERE, and HOW work is done (not the client)</li>
+            <li>Uses their own equipment and tools</li>
+            <li>Can work for multiple clients simultaneously</li>
+            <li>Project-based work, not integrated into core business</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-badge">Perks</div>
+          <h3>Deductible Expenses</h3>
+          <p>Contractors can deduct: home office, equipment, software, professional development, health insurance premiums, retirement contributions. This partially offsets the higher tax burden.</p>
+        </div>
+      </div>
+      <div class="callout danger">
+        <div class="callout-icon">🚫</div>
+        <div class="callout-body">
+          <h4>Misclassification — The Risk You Must Never Create</h4>
+          <p>If a company treats a worker as 1099 but the IRS determines they meet employee criteria → automatic reclassification as W-2.<br><br>
+          <strong>Penalties:</strong> 10–30% of unpaid back taxes + interest + state labour violations. On a $100k placement, back taxes alone could be $15,000–$30,000 across potentially dozens of simultaneous placements.<br><br>
+          <strong>As a recruiter:</strong> If a client says W-2 only and you submit a 1099 arrangement → your agency is liable. Never structure a placement as 1099 unless the client explicitly accepts it AND the worker genuinely meets contractor criteria.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="t-compare" class="tab-content">
+      <h2 class="sec-title">Employment Type Comparison</h2>
+      <p class="sec-sub">Your daily reference table. Know this before your first live screening call.</p>
+      <table class="comp-table">
+        <thead><tr><th>Attribute</th><th>Permanent W-2</th><th>Contract 1099</th><th>C2H (Contract Phase)</th><th>C2H (Perm Phase)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Employer</strong></td><td>Client directly</td><td>Contractor (self)</td><td>Staffing agency</td><td>Client directly</td></tr>
+          <tr><td><strong>Tax Form</strong></td><td>W-2</td><td>1099-NEC</td><td>W-2 (agency)</td><td>W-2 (client)</td></tr>
+          <tr><td><strong>Taxes Withheld?</strong></td><td class="good">Yes — employer</td><td class="bad">No — self-pay</td><td class="good">Yes — agency</td><td class="good">Yes — client</td></tr>
+          <tr><td><strong>Benefits</strong></td><td class="good">Full (health, 401k, PTO)</td><td class="bad">None — self-funded</td><td class="warn">Minimal or none</td><td class="good">Full benefits</td></tr>
+          <tr><td><strong>Duration</strong></td><td>Indefinite</td><td>Project/defined</td><td>3–6 months</td><td>Indefinite</td></tr>
+          <tr><td><strong>Pay Rate</strong></td><td>Salary</td><td class="good">High hourly</td><td class="good">Higher hourly</td><td class="warn">Lower salary (offset by benefits)</td></tr>
+          <tr><td><strong>Job Security</strong></td><td class="good">High</td><td class="bad">Low (project-based)</td><td class="bad">Low (trial)</td><td class="good">High</td></tr>
+          <tr><td><strong>Legal Protection</strong></td><td class="good">Full employment law</td><td class="bad">Limited</td><td>Agency + client laws</td><td class="good">Full employment law</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="t-w2rule" class="tab-content">
+      <h2 class="sec-title">The W-2 Only Rule — The Compliance Line</h2>
+      <p class="sec-sub">When a job order says "W-2 only" — this is a compliance requirement, not a preference. Violating it exposes your agency to tax penalties.</p>
+
+      <div class="callout danger">
+        <div class="callout-icon">🚫</div>
+        <div class="callout-body">
+          <h4>What "W-2 Only" Means — Be Precise</h4>
+          <p>The candidate must be employed as a W-2 employee — either of the staffing agency (for contract) or of the client (for permanent).<br><br>
+          The client will <strong>NOT</strong> accept a 1099 independent contractor — even if the candidate is willing.<br>
+          The client will <strong>NOT</strong> accept Corp-to-Corp (C2C) arrangements where a candidate bills through their own LLC.<br><br>
+          This is standard for most enterprise clients, all healthcare clients, most government clients, and most Fortune 500 companies.</p>
+        </div>
+      </div>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin:24px 0 14px;">Which Work Auth Types Satisfy "W-2 Only"?</h3>
+      <table class="comp-table">
+        <thead><tr><th>Work Auth Type</th><th>W-2 Compatible?</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>US Citizen (USC)</td><td class="good">✓ Yes</td><td>Always W-2 eligible. Cleanest submission.</td></tr>
+          <tr><td>Green Card / Permanent Resident</td><td class="good">✓ Yes</td><td>Always W-2 eligible. No expiry tracking needed.</td></tr>
+          <tr><td>TN Visa holder</td><td class="good">✓ Yes</td><td>W-2 through agency. New TN needed if changing employer.</td></tr>
+          <tr><td>EAD (OPT / H-4 EAD)</td><td class="warn">⚠ Verify expiry</td><td>W-2 compatible but check expiry date covers the full contract.</td></tr>
+          <tr><td>H-1B</td><td class="warn">⚠ Transfer needed</td><td>W-2 only, but most enterprise clients also exclude H-1B transfer. Check the req.</td></tr>
+          <tr><td>1099 Independent Contractor</td><td class="bad">✗ No</td><td>Compliance violation on a W-2 only req.</td></tr>
+          <tr><td>Corp-to-Corp (C2C)</td><td class="bad">✗ No</td><td>Compliance violation. Never promise C2C on W-2 only.</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout warn">
+        <div class="callout-icon">📞</div>
+        <div class="callout-body">
+          <h4>On the Screening Call — What to Do</h4>
+          <p>
+          <strong>Always ask first:</strong> "Can you confirm your work authorisation status?"<br><br>
+          <strong>If 1099 or C2C:</strong> "This position is W-2 only — the client does not accept 1099 or C2C. Are you willing to be on W-2?" If no → end the call professionally.<br><br>
+          <strong>If H-1B:</strong> Check the job order immediately. If it says "No H-1B transfer" → end the call professionally. If H-1B is allowed → flag to manager before proceeding. H-1B transfer adds weeks.<br><br>
+          <strong>Never promise</strong> a candidate they can work 1099 on a W-2 only requirement — the MSP will reject the profile and your agency bears the liability.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('jobtypes')">← Job Types</button>
+      <button class="nav-btn primary" onclick="showPage('visa_overview')">Visa Overview →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: VISA OVERVIEW ─── -->
+<div id="pg-visa_overview" class="page">
+  <div class="hero">
+    <div class="part-badge">Part B · Section 1</div>
+    <h2>US Visa Overview — Every Type You Will Encounter on a Call</h2>
+    <p>All US visas split into two categories: immigrant (permanent) and non-immigrant (temporary). The category determines whether work authorisation is permanent or restricted.</p>
+  </div>
+  <div class="content-wrap">
+
+    <div class="cards-grid">
+      <div class="card c2h">
+        <div class="card-badge">Immigrant Visa</div>
+        <h3>Green Card Path — Permanent</h3>
+        <ul>
+          <li>Intent: permanent residence and eventual US citizenship</li>
+          <li>Work auth: unlimited — any employer, any role</li>
+          <li>Duration: permanent (Green Card renewed every 10 years)</li>
+          <li>Result: Lawful Permanent Resident (LPR)</li>
+          <li>Path to citizenship: 3 years (married to USC) or 5 years (other paths)</li>
+        </ul>
+      </div>
+      <div class="card contract">
+        <div class="card-badge">Non-Immigrant Visa</div>
+        <h3>Temporary Stay — Restricted</h3>
+        <ul>
+          <li>Intent: temporary presence for specific purpose (work, study, business)</li>
+          <li>Work auth: restricted — tied to employer, purpose, or duration</li>
+          <li>Duration: varies by type (3 months to 6 years typically)</li>
+          <li>Result: worker must leave, extend, or change status when visa expires</li>
+          <li>Examples: F-1 (student), H-1B (worker), L-1 (intra-company), TN (NAFTA)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout gold">
+      <div class="callout-icon">⭐</div>
+      <div class="callout-body">
+        <h4>The Recruiter's Work Auth Hierarchy</h4>
+        <p><strong>Green Card = EAD &gt; USC &gt; TN &gt; H-1B</strong><br><br>
+        Green Card and USC are always the cleanest submissions — no expiry tracking, no employer dependency, no transfer delays. When you find a Green Card candidate, submit fast — every other agency is looking for them too. EAD is good if the expiry date covers the contract period. H-1B is the most complex — employer-tied, transfer required, cap lottery risk.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab(this,'vt-f1')">F-1 / OPT / STEM OPT</div>
+      <div class="tab" onclick="switchTab(this,'vt-h1b')">H-1B</div>
+      <div class="tab" onclick="switchTab(this,'vt-gc')">Green Card & EAD</div>
+      <div class="tab" onclick="switchTab(this,'vt-other')">TN / L-1 / O-1</div>
+    </div>
+
+    <!-- F1 TAB -->
+    <div id="vt-f1" class="tab-content active">
+      <h2 class="sec-title">F-1 Student Visa, OPT & STEM OPT</h2>
+      <p class="sec-sub">Millions of international students graduate from US universities every year. Their work auth follows a specific path. Know each stage — this is one of the most common work auth types you will encounter in IT and tech recruiting.</p>
+
+      <div class="flow-row">
+        <div class="flow-step">
+          <div class="step-num">Stage 1</div>
+          <h4>F-1 Active (In School)</h4>
+          <p>Full-time student status. On-campus work only (≤20 hrs/week during semester). Cannot work off-campus without OPT or CPT. CPT: 12-month integrated work during curriculum.</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="step-num">Stage 2</div>
+          <h4>OPT (12 months)</h4>
+          <p>Post-graduation work auth. Valid for ANY employer — not tied to one company. Must use within 14 months of graduation. Does NOT require employer sponsorship.</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="step-num">Stage 3</div>
+          <h4>STEM OPT (+24 months)</h4>
+          <p>STEM field graduates only (CS, Engineering, Math, Science). Additional 24 months = 36 months total. Employer must be E-Verify enrolled. Must have Form I-983 training plan.</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="step-num">Stage 4</div>
+          <h4>H-1B (if sponsored)</h4>
+          <p>Employer files H-1B petition. Annual lottery cap: 85,000 visas. If approved: 3+3 years. If denied or no sponsor: must depart US.</p>
+        </div>
+      </div>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin:28px 0 14px;">Your OPT/STEM OPT Recruiter Checklist</h3>
+      <ul class="checklist">
+        <li><input type="checkbox"><div class="cl-text">Ask: <strong>"What type of work auth do you have?"</strong> → if OPT, ask: "Is it standard OPT or STEM OPT?"</div></li>
+        <li><input type="checkbox"><div class="cl-text">Ask: <strong>"What is your EAD expiry date?"</strong> — this is the hard deadline for the placement</div></li>
+        <li><input type="checkbox"><div class="cl-text">Check: <strong>Will the contract end BEFORE the EAD expires?</strong> If contract = 6 months and OPT expires in 4 months → DO NOT SUBMIT without flagging</div></li>
+        <li><input type="checkbox"><div class="cl-text">Ask: <strong>"Have you applied for H-1B sponsorship?"</strong> → if yes, what is the status? Pending lottery may create a gap.</div></li>
+        <li><input type="checkbox"><div class="cl-text">Understand <strong>Cap-Gap:</strong> OPT expires April 1 + H-1B filed + receipt notice = automatic extension until October 1 (H-1B start date). Candidate can continue working during cap-gap ONLY with I-20 extension and valid I-797C receipt notice.</div></li>
+      </ul>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin:28px 0 14px;">OPT/STEM OPT Placement Risks</h3>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-badge" style="background:#fde8e8;color:#c0392b;">Risk 1</div>
+          <h3>EAD Expires Mid-Contract</h3>
+          <p>If OPT expires before contract ends, the candidate must stop working. The MSP will immediately remove them. Always verify expiry covers the full contract period — and add a buffer month.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge" style="background:#fde8e8;color:#c0392b;">Risk 2</div>
+          <h3>No STEM Extension</h3>
+          <p>Not all STEM fields qualify. The employer must be E-Verify enrolled for STEM OPT. If the employer isn't enrolled, the STEM extension is invalid. Verify E-Verify status before placing.</p>
+        </div>
+        <div class="card">
+          <div class="card-badge" style="background:#fde8e8;color:#c0392b;">Risk 3</div>
+          <h3>H-1B Lottery Denial</h3>
+          <p>If the candidate is in the lottery and doesn't win, they must depart after OPT expires. You may lose a placed candidate mid-contract. Flag any OPT candidate with an active lottery petition to your manager.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- H1B TAB -->
+    <div id="vt-h1b" class="tab-content">
+      <h2 class="sec-title">H-1B Specialty Occupation Visa</h2>
+      <p class="sec-sub">H-1B is the most common work visa for skilled professionals. It is also the most restrictive and the most often client-rejected visa type you will encounter.</p>
+      <div class="visa-card h1b" style="margin:0 0 20px;">
+        <div class="vc-header">
+          <div><h3>H-1B Visa</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">Specialty Occupation — Employer-Tied</p></div>
+          <div class="vc-code">H1B</div>
+        </div>
+        <div class="vc-row"><span class="vc-label">Purpose</span><span class="vc-val">Temporary employment for "specialty occupation" workers — roles requiring at minimum a bachelor's degree. Common in IT, engineering, accounting, finance, medicine.</span></div>
+        <div class="vc-row"><span class="vc-label">Duration</span><span class="vc-val">Initial 3 years. Extension to 6 years maximum. Further extensions if green card process is in progress.</span></div>
+        <div class="vc-row"><span class="vc-label">Annual Cap</span><span class="vc-val">85,000 visas/year (65,000 regular + 20,000 US master's holders). If demand exceeds cap → lottery. Recent odds: ~1 in 3.</span></div>
+        <div class="vc-row"><span class="vc-label">Employer-Tied</span><span class="vc-val">Tied to the SPECIFIC EMPLOYER who sponsored it. Candidate cannot simply change jobs — must get H-1B portability transfer via AC21.</span></div>
+        <div class="vc-row"><span class="vc-label">Prevailing Wage</span><span class="vc-val">Employer MUST pay the H-1B worker the prevailing wage for the role and location (set by DOL). Cannot underpay to save costs.</span></div>
+        <div class="vc-row"><span class="vc-label">Cost to Sponsor</span><span class="vc-val">USCIS filing ($460) + legal fees ($1,500–$3,000) + optional premium processing ($2,500) = $4,000–$7,000+ total</span></div>
+        <div class="vc-tip">Most staffing agencies do NOT sponsor new H-1B visas — the cost, lottery risk, and timeline make it impractical for contract placements. If a candidate says "I need H-1B sponsorship" → your agency almost certainly cannot help. Be empathetic but clear: "We don't sponsor H-1B visas — you'd need to find a direct employer. If you obtain your own H-1B later, we'd love to work with you."</div>
+      </div>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin:20px 0 14px;">H-1B Candidate Decision Flow on a Call</h3>
+      <div class="flow-row">
+        <div class="flow-step"><div class="step-num">Step 1</div><h4>Candidate says: "I am on H-1B"</h4><p>Don't proceed yet. Open the job order first.</p></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><div class="step-num">Step 2</div><h4>Check job order</h4><p>"Does this req say No H-1B?"</p></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><div class="step-num">Step 3a</div><h4>If YES: No H-1B</h4><p>End call politely. Do not proceed.</p></div>
+      </div>
+      <div class="flow-row" style="margin-top:12px;">
+        <div class="flow-step"><div class="step-num">Step 3b</div><h4>If H-1B Allowed</h4><p>Ask: "Who is your current H-1B sponsor?" "Are you open to transfer?"</p></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><div class="step-num">Step 4</div><h4>Ask: I-94 Expiry</h4><p>"What is the expiry date on your H-1B approval / I-94?"</p></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><div class="step-num">Step 5</div><h4>Flag to Manager</h4><p>H-1B transfer adds weeks. Always loop in manager before proceeding.</p></div>
+      </div>
+    </div>
+
+    <!-- GC TAB -->
+    <div id="vt-gc" class="tab-content">
+      <h2 class="sec-title">Green Card & EAD — The Best Work Auth Outcomes</h2>
+      <p class="sec-sub">Green Card holders have unlimited work authorisation. EAD holders have temporary but flexible work authorisation. Know the difference intimately — these two categories dominate your daily submissions.</p>
+
+      <div class="visa-grid">
+        <div class="visa-card gc">
+          <div class="vc-header">
+            <div><h3>Green Card</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">Permanent Resident Card — Form I-551</p></div>
+            <div class="vc-code">GC</div>
+          </div>
+          <div class="vc-row"><span class="vc-label">Status</span><span class="vc-val">Lawful Permanent Resident (LPR). Not a visa — a permanent immigration status.</span></div>
+          <div class="vc-row"><span class="vc-label">Work Auth</span><span class="vc-val">Unlimited. Any employer, any role, any time. No sponsorship, no expiry, no restrictions.</span></div>
+          <div class="vc-row"><span class="vc-label">Physical Card</span><span class="vc-val">Credit-card size. Predominantly green with Statue of Liberty holographic image. Expires every 10 years (for renewal — status itself is permanent).</span></div>
+          <div class="vc-row"><span class="vc-label">I-9 Verification</span><span class="vc-val">List A document — satisfies both identity AND work authorisation. No additional documents needed.</span></div>
+          <div class="vc-row"><span class="vc-label">Pathways</span><span class="vc-val">Employment-based (EB-1 to EB-5) · Family-sponsored · Refugee/Asylee · Diversity Visa Lottery</span></div>
+          <div class="vc-tip">🌟 Green Card = the recruiter's dream. Prioritise GC candidates for submission. No expiry tracking, no employer dependency, no transfer delays. When you find a Green Card candidate who matches the req, submit first — every other agency is also looking for them.</div>
+        </div>
+
+        <div class="visa-card ead">
+          <div class="vc-header">
+            <div><h3>EAD</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">Employment Authorization Document — Form I-766</p></div>
+            <div class="vc-code">EAD</div>
+          </div>
+          <div class="vc-row"><span class="vc-label">Status</span><span class="vc-val">Temporary work permit issued to various immigration categories — OPT graduates, H-4 dependents, pending GC applicants, asylees, DACA recipients.</span></div>
+          <div class="vc-row"><span class="vc-label">Work Auth</span><span class="vc-val">Depends on category. Most EADs allow any employer. H-4 EAD is restricted. Always check the visa category printed on the card.</span></div>
+          <div class="vc-row"><span class="vc-label">Physical Card</span><span class="vc-val">Credit-card size. Predominantly red (2017+ design) with bald eagle holographic image. Expiry date is CRITICAL — employment stops when EAD expires.</span></div>
+          <div class="vc-row"><span class="vc-label">Key Question</span><span class="vc-val">Always ask: "What is your EAD expiry date?" and "What category is your EAD?" The category tells you the underlying immigration status.</span></div>
+          <div class="vc-tip">⚠️ GC-EAD is a special case: some candidates have an EAD based on a pending green card application (Form I-485). These candidates may also hold an active H-1B simultaneously — they use the EAD for employer flexibility and keep H-1B as backup. Strong work auth position from a recruiter's perspective.</div>
+        </div>
+      </div>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:20px;color:var(--navy);margin:24px 0 14px;">GC vs EAD — Quick Comparison</h3>
+      <table class="comp-table">
+        <thead><tr><th>Attribute</th><th>Green Card (I-551)</th><th>EAD (I-766)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Work Auth</strong></td><td class="good">Unlimited, any employer</td><td class="warn">Depends on category — usually any, but confirm</td></tr>
+          <tr><td><strong>Expiry</strong></td><td class="good">10 yrs (for renewal — status permanent)</td><td class="bad">1–2 years — employment STOPS at expiry</td></tr>
+          <tr><td><strong>Employer Change</strong></td><td class="good">Freely — no notification required</td><td class="warn">Usually free — some categories restricted</td></tr>
+          <tr><td><strong>International Travel</strong></td><td class="good">Yes — with valid GC</td><td class="warn">Varies — some need Advance Parole</td></tr>
+          <tr><td><strong>Path to Citizenship</strong></td><td class="good">Yes — after 3–5 years</td><td class="warn">Depends on underlying status</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- TN L1 O1 TAB -->
+    <div id="vt-other" class="tab-content">
+      <h2 class="sec-title">TN, L-1 & O-1 — Other Visa Types</h2>
+      <p class="sec-sub">Less common than H-1B or Green Card — but you will see these on resumes. Know what each means and how to handle them on a call.</p>
+
+      <div class="visa-grid">
+        <div class="visa-card tn">
+          <div class="vc-header">
+            <div><h3>TN Visa</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">NAFTA/USMCA Professional</p></div>
+            <div class="vc-code">TN</div>
+          </div>
+          <div class="vc-row"><span class="vc-label">Who</span><span class="vc-val">Canadian and Mexican citizens ONLY — under USMCA (formerly NAFTA)</span></div>
+          <div class="vc-row"><span class="vc-label">Occupations</span><span class="vc-val">Specific professional roles: engineers, accountants, scientists, computer systems analysts, lawyers, nurses, pharmacists</span></div>
+          <div class="vc-row"><span class="vc-label">Duration</span><span class="vc-val">3 years, renewable indefinitely in 3-year increments — no maximum</span></div>
+          <div class="vc-row"><span class="vc-label">Advantage</span><span class="vc-val">No lottery, no annual cap. Canadian citizens can self-petition at the border. Very fast processing.</span></div>
+          <div class="vc-row"><span class="vc-label">Employer-Tied</span><span class="vc-val">Yes — tied to specific employer and job title. Changing employers requires a new TN.</span></div>
+          <div class="vc-tip">TN is the most underrated option in US staffing. Canadian citizens can get a TN at the border in ONE DAY — no petition, no lottery, no waiting. For urgent reqs where H-1B transfers take too long, a TN-eligible Canadian can start almost immediately.</div>
+        </div>
+
+        <div class="visa-card l1">
+          <div class="vc-header">
+            <div><h3>L-1 Visa</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">Intracompany Transfer</p></div>
+            <div class="vc-code">L1</div>
+          </div>
+          <div class="vc-row"><span class="vc-label">Who</span><span class="vc-val">Managers/executives (L-1A) or specialised knowledge workers (L-1B) transferred within the same multinational company</span></div>
+          <div class="vc-row"><span class="vc-label">Requirement</span><span class="vc-val">Employee must have worked for the company 1+ year in the past 3 years at a foreign office</span></div>
+          <div class="vc-row"><span class="vc-label">Duration</span><span class="vc-val">L-1A: up to 7 years. L-1B: up to 5 years</span></div>
+          <div class="vc-row"><span class="vc-label">GC Path</span><span class="vc-val">L-1A holders can pursue EB-1C (multinational manager) green card — faster track than EB-2/EB-3</span></div>
+          <div class="vc-row"><span class="vc-label">Tied To</span><span class="vc-val">Specific company ONLY — cannot change employers on L-1</span></div>
+          <div class="vc-tip">L-1 candidates typically work for large multinationals — IBM, Infosys, Tata, Wipro, Cognizant. If they say L-1 and are looking at your contract, ask who their current L-1 sponsor is. The L-1 needs to be transferred or they need to move to a different visa.</div>
+        </div>
+
+        <div class="visa-card o1">
+          <div class="vc-header">
+            <div><h3>O-1 Visa</h3><p style="font-size:12px;color:var(--text-light);margin-top:3px;">Extraordinary Ability</p></div>
+            <div class="vc-code">O1</div>
+          </div>
+          <div class="vc-row"><span class="vc-label">Who</span><span class="vc-val">Individuals with extraordinary ability in sciences, arts, business, athletics, or media — demonstrated through awards, publications, peer recognition</span></div>
+          <div class="vc-row"><span class="vc-label">Duration</span><span class="vc-val">3 years initial + 1-year extensions (no maximum)</span></div>
+          <div class="vc-row"><span class="vc-label">Advantage</span><span class="vc-val">No annual cap, no lottery. Can self-petition in some cases.</span></div>
+          <div class="vc-row"><span class="vc-label">Work Auth</span><span class="vc-val">Tied to specific employer/agent who files the petition</span></div>
+          <div class="vc-tip">O-1 holders are typically senior and specialised (researchers, executives, specialists). If you see this on a resume, it signals a high-value candidate. Work auth situation is similar to H-1B — employer-tied, transfer needed. Flag to manager.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('w2_1099')">← W-2 & 1099</button>
+      <button class="nav-btn primary" onclick="showPage('decision')">Decision Matrix →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: DECISION MATRIX ─── -->
+<div id="pg-decision" class="page">
+  <div class="hero">
+    <div class="part-badge">Part B · Section 2</div>
+    <h2>Work Auth Decision Matrix</h2>
+    <p>Print this. Pin it at your desk. Use it on every call. Match the candidate's work auth to the job order requirement — takes 10 seconds.</p>
+  </div>
+  <div class="content-wrap">
+
+    <div class="callout info">
+      <div class="callout-icon">📋</div>
+      <div class="callout-body">
+        <h4>How to Read This Matrix</h4>
+        <p><strong>Step 1:</strong> Find the candidate's work auth type in the left column (ask them directly).<br>
+        <strong>Step 2:</strong> Find the client type in the column headers (read the job order).<br>
+        <strong>Step 3:</strong> The cell tells you Accept ✓, Decline ✗, or Check ⚠ (requires manager confirmation or expiry verification).<br><br>
+        <strong>When in doubt about a ⚠ cell — ask your manager before proceeding. Never guess on compliance.</strong></p>
+      </div>
+    </div>
+
+    <div class="matrix-wrap">
+      <table class="matrix-table">
+        <thead>
+          <tr>
+            <th style="min-width:190px;">Work Auth Type</th>
+            <th>Enterprise<br><span style="font-weight:400;font-size:10px;">W-2 GC/USC only</span></th>
+            <th>IT Staffing<br><span style="font-weight:400;font-size:10px;">W-2 all</span></th>
+            <th>Healthcare<br><span style="font-weight:400;font-size:10px;">W-2 GC/USC</span></th>
+            <th>Startup/Direct<br><span style="font-weight:400;font-size:10px;">W-2 or C2C</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="auth-name">US Citizen (USC)</td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">Green Card (GC)</td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">GC-EAD (I-485 pending)</td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">OPT / STEM OPT (EAD)</td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">H-4 EAD</td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">H-1B (transfer needed)</td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-check">⚠ Check</span></td></tr>
+          <tr><td class="auth-name">TN Visa</td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-accept">✓ Accept</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">L-1 (transfer needed)</td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-check">⚠ Check</span></td></tr>
+          <tr><td class="auth-name">1099 / Corp-to-Corp</td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-check">⚠ Check</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-accept">✓ Accept</span></td></tr>
+          <tr><td class="auth-name">Needs H-1B Sponsorship</td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-decline">✗ Decline</span></td><td><span class="badge-decline">✗ Decline</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cards-grid" style="margin-top:24px;">
+      <div class="card">
+        <div class="card-badge" style="background:#e8f7ef;color:#1a7a4a;">Why OPT = ⚠ for Enterprise</div>
+        <h3>Enterprise clients don't want expiry tracking</h3>
+        <p>Enterprise and Fortune 500 clients don't want to manage EAD expiry dates and risk a mid-contract candidate drop. Even if the OPT covers the contract duration, many enterprise MSPs have a blanket policy excluding OPT candidates.</p>
+      </div>
+      <div class="card">
+        <div class="card-badge" style="background:#fdf5e0;color:#9a6e0f;">Why H-1B = ⚠ even for IT Staffing</div>
+        <h3>Transfer adds weeks — clients need candidates now</h3>
+        <p>Some IT staffing firms do process H-1B transfers, but it adds 3–8 weeks minimum. Always flag an H-1B candidate to the manager before spending time on a detailed screening — the client may not be willing to wait.</p>
+      </div>
+      <div class="card">
+        <div class="card-badge" style="background:#fde8e8;color:#c0392b;">Why Healthcare = GC/USC only</div>
+        <h3>Licensing + compliance alignment</h3>
+        <p>Healthcare placements carry additional licensing requirements and federal compliance obligations (HIPAA, credentialing). Healthcare clients align work auth requirements with their licensing criteria — temporary visa holders don't meet their compliance baseline.</p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('visa_overview')">← Visa Overview</button>
+      <button class="nav-btn primary" onclick="showPage('scenarios')">Screening Scenarios →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: SCENARIOS ─── -->
+<div id="pg-scenarios" class="page">
+  <div class="hero">
+    <div class="part-badge">Part B · Section 3</div>
+    <h2>Real Screening Call Scenarios</h2>
+    <p>Three scenarios you will face every day. Know the exact question and the exact response for each. Practice until these are automatic.</p>
+  </div>
+  <div class="content-wrap">
+
+    <div class="callout gold">
+      <div class="callout-icon">🎯</div>
+      <div class="callout-body">
+        <h4>The Universal First Question — Never Skip This</h4>
+        <p><strong>"Can you confirm your work authorisation status?"</strong><br>This is the first compliance question on every call, before you go any further. Work auth comes after a brief pitch and interest check — but BEFORE the full skill qualification. If the candidate is not authorised for the role, the subsequent conversation is wasted.</p>
+      </div>
+    </div>
+
+    <!-- Scenario A -->
+    <div class="scenario opta">
+      <div class="scenario-header">
+        <div>
+          <h3>Scenario A — Candidate says: "I'm on OPT"</h3>
+          <p>The most time-sensitive work auth situation. Expiry tracking is everything.</p>
+        </div>
+        <div class="scen-badge">OPT</div>
+      </div>
+      <div class="scenario-body">
+        <div class="ask-block">
+          <h4>Ask These Questions</h4>
+          <ul>
+            <li>Is it standard OPT or STEM OPT?</li>
+            <li>What is your EAD expiry date?</li>
+            <li>Have you applied for H-1B this cycle?</li>
+          </ul>
+        </div>
+        <div class="say-block">Great — this req is W-2 compatible with OPT. I just need to confirm your EAD covers the full contract duration. Your EAD expires [date] and this contract runs [X months] — does that timeline work for you?</div>
+        <div class="flag-block">EAD expires before contract ends. H-1B lottery is pending and OPT gap (cap-gap) may apply — candidate could be forced to stop work mid-contract.</div>
+        <div class="action-block">If EAD covers the contract → proceed. If borderline (within 2 months) → flag to manager before submitting. Never submit an OPT candidate whose EAD expires before the contract ends.</div>
+
+        <h4 style="margin-top:20px;font-size:13px;color:var(--navy);text-transform:uppercase;letter-spacing:.5px;">Expiry Check Logic</h4>
+        <div class="formula" style="font-size:13px;">
+          <span class="comment">// The contract duration check:</span><br>
+          Contract start date + Contract duration = Expected end date<br>
+          EAD expiry must be &gt; Expected end date<br><br>
+          <span class="comment">// Example (safe):</span><br>
+          Start: Jan 1, 2025 + 6 months = <span class="highlight">End: July 1, 2025</span><br>
+          EAD expiry: <span class="highlight">Dec 15, 2025</span> → ✓ EAD covers contract period<br><br>
+          <span class="comment">// Example (dangerous — DO NOT SUBMIT without flagging):</span><br>
+          Start: Jan 1, 2025 + 6 months = <span class="highlight">End: July 1, 2025</span><br>
+          EAD expiry: <span class="highlight">May 10, 2025</span> → ✗ EAD expires mid-contract
+        </div>
+      </div>
+    </div>
+
+    <!-- Scenario B -->
+    <div class="scenario h1bscen">
+      <div class="scenario-header">
+        <div>
+          <h3>Scenario B — Candidate says: "I'm on H-1B"</h3>
+          <p>The most nuanced scenario. Check the job order FIRST before saying anything else.</p>
+        </div>
+        <div class="scen-badge">H1B</div>
+      </div>
+      <div class="scenario-body">
+        <div class="ask-block">
+          <h4>Ask These Questions (After Checking Job Order)</h4>
+          <ul>
+            <li>Who is your current H-1B sponsor?</li>
+            <li>Are you open to an H-1B transfer?</li>
+            <li>What is your I-94 / H-1B approval expiry date?</li>
+          </ul>
+        </div>
+        <div class="say-block">I understand. Let me check the job order — [check]. Unfortunately this client has specified no H-1B transfers at this time. I'd love to keep you in mind for roles that do accept H-1B. Can I add you to our database?</div>
+        <p style="font-size:13px;color:var(--text-light);margin:8px 0 8px;font-style:italic;">(If H-1B IS accepted by this client:) "An H-1B transfer is possible — I'll flag this with my manager to confirm the client's process and timeline before we go further."</p>
+        <div class="flag-block">Req says "No H-1B". Transfer takes 3–8 weeks minimum — client may not be willing to wait even if work auth is technically compatible.</div>
+        <div class="action-block">Check job order FIRST. If No H-1B → end professionally and offer to keep in database. If H-1B allowed → flag to manager before proceeding. Never promise a transfer timeline to the candidate.</div>
+        <div class="callout warn" style="margin-top:16px;">
+          <div class="callout-icon">💬</div>
+          <div class="callout-body">
+            <h4>Why "I'd keep you in mind" Matters</h4>
+            <p>The phrase "I'd love to keep you in mind for roles that accept H-1B" keeps the relationship alive without making a false promise. H-1B candidates are often highly qualified — you may have a role for them in the future. Add them to your database and tag their work auth correctly in Ceipal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scenario C -->
+    <div class="scenario gcscen">
+      <div class="scenario-header">
+        <div>
+          <h3>Scenario C — Candidate says: "I'm a Green Card holder"</h3>
+          <p>The cleanest work auth outcome. Proceed quickly — GC candidates are in demand.</p>
+        </div>
+        <div class="scen-badge">GC</div>
+      </div>
+      <div class="scenario-body">
+        <div class="ask-block">
+          <h4>Verify (Quick Checks Only)</h4>
+          <ul>
+            <li>Is your Green Card current and not expired? (Rare — 10-year validity, but worth confirming)</li>
+            <li>Are you comfortable with a W-2 contract arrangement?</li>
+          </ul>
+        </div>
+        <div class="say-block">Perfect — Green Card is the cleanest work authorisation for this role. You're fully eligible. Let me walk you through the details of the position.</div>
+        <div class="flag-block">Almost none for work auth. Ensure GC is not expired (rare — 10-year validity, and residency status continues even during renewal). Confirm W-2 comfort if it's a contract role.</div>
+        <div class="action-block">Proceed immediately. Green Card candidates are priority submissions. Note GC status prominently in your submission profile in Ceipal. Do not delay — every other agency is also looking for GC candidates.</div>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('decision')">← Decision Matrix</button>
+      <button class="nav-btn primary" onclick="showPage('mistakes')">Common Mistakes →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: MISTAKES ─── -->
+<div id="pg-mistakes" class="page">
+  <div class="hero">
+    <div class="part-badge">Reference</div>
+    <h2>8 Common Recruiter Mistakes — Employment Types &amp; Work Auth</h2>
+    <p>Every one of these has happened. Recently. Some are compliance violations. Know them before you make them — not after.</p>
+  </div>
+  <div class="content-wrap">
+    <div class="mistakes-grid">
+      <div class="mistake">
+        <div class="m-num">1</div>
+        <h4>Submitting a 1099 candidate to a W-2 only req</h4>
+        <p>Compliance violation. The MSP will reject the profile and your agency risks misclassification liability. Always check the req employment type before beginning the screening call — not after.</p>
+        <div class="fix">Check the job order's employment type requirement before your first word on the call.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">2</div>
+        <h4>Not asking for EAD expiry date</h4>
+        <p>Submitting an OPT candidate whose EAD expires in 2 months for a 6-month contract. They get placed, the EAD expires, they stop work — MSP removes them and your agency looks incompetent. This is also a compliance issue.</p>
+        <div class="fix">Always ask "What is your EAD expiry date?" as a mandatory follow-up to any OPT/EAD response.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">3</div>
+        <h4>Assuming H-1B is acceptable because the req says "W-2 only"</h4>
+        <p>A req says "W-2 only" and the fresher submits an H-1B candidate thinking W-2 + H-1B is compatible. It IS W-2 compatible — but most enterprise clients ALSO say "no H-1B transfer" separately. Read the full req, not just the employment type field.</p>
+        <div class="fix">Read the entire job order — employment type AND work auth restrictions are separate fields.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">4</div>
+        <h4>Promising H-1B sponsorship</h4>
+        <p>Candidate asks if your agency will sponsor their H-1B. Fresher says "I'll check" and forgets to follow up — or worse, implies yes. Your agency almost certainly does NOT sponsor new H-1Bs. Be clear upfront and honest.</p>
+        <div class="fix">Default response: "Our agency doesn't sponsor H-1B visas — you'd need a direct employer for that."</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">5</div>
+        <h4>Accepting "Green Card" at face value without checking expiry</h4>
+        <p>Candidate says "I have a Green Card" but the physical card expired 2 years ago. An expired Green Card IS still valid residency status (it auto-renews while renewal is pending) — but always verify the card's physical expiry for I-9 purposes.</p>
+        <div class="fix">Ask: "Is your Green Card card current?" — status is permanent, but the physical card must be valid for I-9.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">6</div>
+        <h4>Not distinguishing OPT from STEM OPT</h4>
+        <p>Standard OPT = 12 months. STEM OPT = 36 months total. If you assume standard OPT when it's STEM OPT, you undercount available work months — potentially rejecting a candidate who had plenty of time left on their work auth.</p>
+        <div class="fix">Always ask: "Is it standard OPT or STEM OPT?" — two different timelines, two different requirements.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">7</div>
+        <h4>Ignoring the "GC/USC only" requirement for healthcare</h4>
+        <p>Some healthcare and government clients specify Green Card or US Citizen ONLY — not just W-2. An OPT or EAD candidate on W-2 still doesn't meet this requirement. W-2 eligible ≠ GC/USC only eligible. These are separate criteria.</p>
+        <div class="fix">Healthcare reqs: check both (a) W-2 only AND (b) GC/USC only as separate requirements.</div>
+      </div>
+      <div class="mistake">
+        <div class="m-num">8</div>
+        <h4>Asking work auth at the wrong stage of the call</h4>
+        <p>Asking "What is your work authorisation?" after spending 20 minutes on the skill matrix and negotiating pay — only to discover they need H-1B sponsorship. That entire conversation was wasted. Work auth comes BEFORE the full qualification pitch.</p>
+        <div class="fix">Sequence: (1) Confirm identity → (2) Brief pitch/interest check → (3) Work auth question → (4) Proceed only if compatible.</div>
+      </div>
+    </div>
+
+    <div class="callout gold" style="margin-top:28px;">
+      <div class="callout-icon">📌</div>
+      <div class="callout-body">
+        <h4>The Universal Pre-Call Checklist</h4>
+        <p>Before every screening call, spend 30 seconds checking these on the job order:<br>
+        <strong>1.</strong> What is the employment type? (W-2 / 1099 / C2C accepted?)<br>
+        <strong>2.</strong> Any specific work auth restrictions? (No H-1B? GC/USC only?)<br>
+        <strong>3.</strong> Is this a contract, perm, or C2H role?<br><br>
+        Then on the call, ask work auth BEFORE you pitch the full role. 30 seconds of prep saves 20 minutes of wasted screening.</p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('scenarios')">← Screening Scenarios</button>
+      <button class="nav-btn primary" onclick="showPage('quiz')">Practice Quiz →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: QUIZ ─── -->
+<div id="pg-quiz" class="page">
+  <div class="hero">
+    <div class="part-badge">Reference</div>
+    <h2>Practice Quiz — Test What You Know</h2>
+    <p>Close your notes. These 8 questions cover the most frequently tested concepts from this module. A strong recruiter gets these right automatically.</p>
+  </div>
+  <div class="content-wrap">
+    <div class="quiz-wrap" id="quizWrap">
+
+      <div class="q-card" data-answer="1">
+        <div class="q-num">Question 1 of 8</div>
+        <h4>A job order says "W-2 only." A candidate tells you they prefer to work 1099. What is the correct action?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,1)">A. Submit the candidate — W-2 and 1099 are both tax classifications, so it shouldn't matter.</div>
+          <div class="opt" onclick="answerQ(this,1,1)">B. Explain that this req requires W-2 and ask if they are willing to convert. If no → end the call professionally.</div>
+          <div class="opt" onclick="answerQ(this,0,1)">C. Ask your manager if the client might make an exception for a strong candidate.</div>
+          <div class="opt" onclick="answerQ(this,0,1)">D. Proceed with screening — work auth and employment classification are separate issues.</div>
+        </div>
+        <div class="q-feedback" id="fb-1"></div>
+      </div>
+
+      <div class="q-card" data-answer="2">
+        <div class="q-num">Question 2 of 8</div>
+        <h4>A candidate says their OPT EAD expires in 4 months. The job order is a 6-month contract. What do you do?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,2)">A. Proceed with submission — OPT is W-2 compatible so the placement is valid.</div>
+          <div class="opt" onclick="answerQ(this,0,2)">B. Submit the candidate and note in Ceipal that the EAD expires mid-contract.</div>
+          <div class="opt" onclick="answerQ(this,2,2)">C. Do NOT submit without flagging to manager. The EAD expires before the contract ends — this is a placement risk.</div>
+          <div class="opt" onclick="answerQ(this,0,2)">D. Ask the candidate to apply for H-1B and then proceed with the submission.</div>
+        </div>
+        <div class="q-feedback" id="fb-2"></div>
+      </div>
+
+      <div class="q-card" data-answer="0">
+        <div class="q-num">Question 3 of 8</div>
+        <h4>What is the FICA self-employment tax rate for a 1099 contractor on a $100,000 income?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,3)">A. ~15.3% (~$15,300) — they pay both employee and employer portions.</div>
+          <div class="opt" onclick="answerQ(this,0,3)">B. ~7.65% (~$7,650) — same as a W-2 employee.</div>
+          <div class="opt" onclick="answerQ(this,0,3)">C. ~12.4% — just the Social Security portion.</div>
+          <div class="opt" onclick="answerQ(this,0,3)">D. 0% — contractors handle their own taxes at year-end.</div>
+        </div>
+        <div class="q-feedback" id="fb-3"></div>
+      </div>
+
+      <div class="q-card" data-answer="1">
+        <div class="q-num">Question 4 of 8</div>
+        <h4>A candidate says "I'm on H-1B." The job order says "W-2 only — no H-1B transfer." What do you say?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,4)">A. "H-1B is W-2 compatible so you qualify for this role." Submit the candidate.</div>
+          <div class="opt" onclick="answerQ(this,1,4)">B. End the call professionally and offer to keep them in your database for roles that do accept H-1B.</div>
+          <div class="opt" onclick="answerQ(this,0,4)">C. Ask the candidate if they can change to a different visa before the start date.</div>
+          <div class="opt" onclick="answerQ(this,0,4)">D. Flag to manager — it depends on how urgent the req is.</div>
+        </div>
+        <div class="q-feedback" id="fb-4"></div>
+      </div>
+
+      <div class="q-card" data-answer="3">
+        <div class="q-num">Question 5 of 8</div>
+        <h4>What is the maximum total duration of the OPT + STEM OPT work authorisation path for a STEM field graduate?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,5)">A. 12 months</div>
+          <div class="opt" onclick="answerQ(this,0,5)">B. 24 months</div>
+          <div class="opt" onclick="answerQ(this,0,5)">C. 2 years</div>
+          <div class="opt" onclick="answerQ(this,3,5)">D. 36 months (12 months OPT + 24 months STEM OPT)</div>
+        </div>
+        <div class="q-feedback" id="fb-5"></div>
+      </div>
+
+      <div class="q-card" data-answer="2">
+        <div class="q-num">Question 6 of 8</div>
+        <h4>A recruiter is screening a healthcare candidate. The req says "W-2 only." The candidate has an OPT EAD that covers the contract period. Should the recruiter proceed?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,6)">A. Yes — OPT EAD is W-2 compatible, so all requirements are met.</div>
+          <div class="opt" onclick="answerQ(this,0,6)">B. Yes — the EAD covers the period so there is no compliance risk.</div>
+          <div class="opt" onclick="answerQ(this,2,6)">C. No — healthcare clients typically require GC/USC only. OPT may not qualify even if W-2 compatible.</div>
+          <div class="opt" onclick="answerQ(this,0,6)">D. Ask the candidate to get their Green Card before proceeding.</div>
+        </div>
+        <div class="q-feedback" id="fb-6"></div>
+      </div>
+
+      <div class="q-card" data-answer="0">
+        <div class="q-num">Question 7 of 8</div>
+        <h4>Which of the following work auth types gives a recruiter the CLEANEST submission — no expiry tracking, no employer dependency, no transfer needed?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,7)">A. Green Card (Lawful Permanent Resident)</div>
+          <div class="opt" onclick="answerQ(this,0,7)">B. OPT EAD (valid for 12 months)</div>
+          <div class="opt" onclick="answerQ(this,0,7)">C. H-1B (transferred to the agency)</div>
+          <div class="opt" onclick="answerQ(this,0,7)">D. TN Visa (Canadian citizen)</div>
+        </div>
+        <div class="q-feedback" id="fb-7"></div>
+      </div>
+
+      <div class="q-card" data-answer="1">
+        <div class="q-num">Question 8 of 8</div>
+        <h4>In the correct screening call sequence, at what point should you ask the work authorisation question?</h4>
+        <div class="options">
+          <div class="opt" onclick="answerQ(this,0,8)">A. At the end of the call after full skill qualification, just before discussing pay rate.</div>
+          <div class="opt" onclick="answerQ(this,1,8)">B. After a brief pitch and interest check — before full skill qualification and pay negotiation.</div>
+          <div class="opt" onclick="answerQ(this,0,8)">C. Before you say anything else — as the very first thing on the call.</div>
+          <div class="opt" onclick="answerQ(this,0,8)">D. It doesn't matter when — as long as you ask it somewhere in the call.</div>
+        </div>
+        <div class="q-feedback" id="fb-8"></div>
+      </div>
+
+      <button id="quiz-btn" onclick="showScore()">See My Score</button>
+      <div class="quiz-score" id="quizScore">
+        <div class="score-val" id="scoreVal">0/8</div>
+        <p id="scoreFeedback">Complete the quiz to see your score.</p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('mistakes')">← Common Mistakes</button>
+      <button class="nav-btn primary" onclick="showPage('glossary')">Glossary →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PAGE: GLOSSARY ─── -->
+<div id="pg-glossary" class="page">
+  <div class="hero">
+    <div class="part-badge">Reference</div>
+    <h2>Glossary — Every Term You Need to Know</h2>
+    <p>A practitioner-level reference. Every term here will appear in your daily work — job orders, candidate conversations, ATS notes, and client communications.</p>
+  </div>
+  <div class="content-wrap">
+    <h2 class="sec-title">Employment Types & Tax</h2>
+    <div class="gloss-grid">
+      <div class="gloss-item"><div class="term">W-2</div><div class="def">US tax form + employment classification. The employer withholds income tax, Social Security (6.2%), and Medicare (1.45%) from each paycheck. In staffing, the agency is the W-2 employer of record.</div></div>
+      <div class="gloss-item"><div class="term">1099 / 1099-NEC</div><div class="def">Tax form for self-employed contractors. The client pays the full invoice; the contractor pays their own quarterly taxes (15.3% self-employment tax). No employer withholding.</div></div>
+      <div class="gloss-item"><div class="term">C2C (Corp-to-Corp)</div><div class="def">The candidate bills through their own LLC or S-Corp instead of directly as an individual. The agency receives an invoice from the candidate's company. Rejected on W-2 only requirements.</div></div>
+      <div class="gloss-item"><div class="term">W-2 Only</div><div class="def">Client requirement meaning the candidate MUST be employed as a W-2 employee. Excludes 1099 independent contractors and C2C arrangements. Most enterprise, healthcare, and government clients require this.</div></div>
+      <div class="gloss-item"><div class="term">PERM / Direct Hire</div><div class="def">The candidate is hired directly by the client company as a permanent, full-time employee. No defined end date. Agency earns a one-time placement fee (15–25% of first-year salary).</div></div>
+      <div class="gloss-item"><div class="term">C2H (Contract-to-Hire)</div><div class="def">Starts as a contract (3–6 months) with a built-in path to permanent employment. During the contract phase, the agency is the employer of record. Upon conversion, the client takes over as the direct employer.</div></div>
+      <div class="gloss-item"><div class="term">FICA</div><div class="def">Federal Insurance Contributions Act. Covers Social Security (12.4% split 50/50 between employer/employee) and Medicare (2.9% split 50/50). A 1099 contractor pays the full 15.3% themselves.</div></div>
+      <div class="gloss-item"><div class="term">Bill Rate</div><div class="def">The hourly rate the client pays the staffing agency. Includes the candidate's pay rate plus the agency's margin (which covers payroll taxes, overhead, insurance, and profit).</div></div>
+      <div class="gloss-item"><div class="term">Employer of Record</div><div class="def">The legal entity responsible for employment taxes, W-2 issuance, payroll, workers' compensation, and compliance. In staffing, this is the agency — not the client where the candidate is physically working.</div></div>
+      <div class="gloss-item"><div class="term">At-Will Employment</div><div class="def">The default US employment doctrine: either the employer or employee can terminate the relationship at any time, for any reason (with some legal exceptions). Makes contract hiring less risky for employers.</div></div>
+    </div>
+
+    <h2 class="sec-title" style="margin-top:36px;">Visa Types & Work Auth</h2>
+    <div class="gloss-grid">
+      <div class="gloss-item"><div class="term">USC (US Citizen)</div><div class="def">Full and unconditional US citizenship. Unlimited work authorisation — any employer, any role, no restrictions or expiry. Born in the US, naturalised, or born abroad to US citizens.</div></div>
+      <div class="gloss-item"><div class="term">Green Card (I-551)</div><div class="def">Lawful Permanent Resident card. Not a visa — a permanent immigration status. Unlimited work authorisation. Valid for 10 years (for renewal); the underlying status is permanent.</div></div>
+      <div class="gloss-item"><div class="term">F-1 Visa</div><div class="def">US student visa for full-time academic study. Does not authorise off-campus employment unless the student has OPT or CPT. The most common visa category for international students.</div></div>
+      <div class="gloss-item"><div class="term">OPT (Optional Practical Training)</div><div class="def">Post-graduation work authorisation for F-1 students. 12 months for standard graduates. Must be used within 14 months of graduation. Valid for any employer — not tied to one company. Documented by an EAD card.</div></div>
+      <div class="gloss-item"><div class="term">STEM OPT</div><div class="def">24-month extension of OPT for STEM field graduates (CS, Engineering, Math, Sciences). Total = 36 months. Employer must be E-Verify enrolled. Requires Form I-983 training plan.</div></div>
+      <div class="gloss-item"><div class="term">EAD (I-766)</div><div class="def">Employment Authorization Document. Physical card (red, 2017+ design) issued to various immigration categories — OPT graduates, H-4 dependents, pending GC applicants, asylees, DACA recipients. Check expiry date and category.</div></div>
+      <div class="gloss-item"><div class="term">H-1B</div><div class="def">Specialty occupation visa for workers in roles requiring a bachelor's degree. Employer-tied. 3+3 year duration. Annual cap of 85,000 with lottery. Transfer required to change employers. Most restrictive common visa type.</div></div>
+      <div class="gloss-item"><div class="term">H-4 EAD</div><div class="def">Work authorisation issued to H-1B spouses (H-4 visa holders) whose H-1B spouse is in the green card process. Allows the spouse to work for any employer. Check expiry and confirm category on the card.</div></div>
+      <div class="gloss-item"><div class="term">TN Visa</div><div class="def">USMCA/NAFTA professional visa for Canadian and Mexican citizens only. Specific eligible professions. No lottery, no annual cap. Renewable in 3-year increments with no maximum. Employer-tied — new TN needed if changing jobs.</div></div>
+      <div class="gloss-item"><div class="term">L-1 Visa</div><div class="def">Intracompany transfer visa for managers/executives (L-1A) or specialised knowledge workers (L-1B). Must have worked at a foreign office of the same company for 1+ year. L-1A path to EB-1C green card is faster than EB-2/EB-3.</div></div>
+      <div class="gloss-item"><div class="term">O-1 Visa</div><div class="def">Extraordinary ability visa for individuals with exceptional skill in their field (sciences, arts, business, athletics, media). No annual cap, no lottery. Employer-tied. Rare — signals a high-value senior candidate.</div></div>
+      <div class="gloss-item"><div class="term">LPR (Lawful Permanent Resident)</div><div class="def">The official immigration status of a Green Card holder. Can live and work permanently in the US. Can apply for US citizenship after 3–5 years. Referred to interchangeably with "Green Card holder."</div></div>
+      <div class="gloss-item"><div class="term">Cap-Gap</div><div class="def">Automatic extension of OPT work authorisation between OPT expiry (April 1) and H-1B start date (October 1), if a timely H-1B petition was filed and receipt notice (I-797C) is in hand. Candidate can continue working during cap-gap.</div></div>
+      <div class="gloss-item"><div class="term">H-1B Transfer (Portability)</div><div class="def">The process of moving an existing H-1B from one employer to another via AC21 portability. The candidate can start work when the new employer's petition is received (I-797C receipt). Takes 3–8 weeks. Not all clients will wait.</div></div>
+      <div class="gloss-item"><div class="term">I-9 Verification</div><div class="def">Federal employer requirement to verify employee identity and work authorisation. Must be completed within 3 business days of hire. Green Card and EAD are both "List A" documents — satisfy both identity and work auth.</div></div>
+      <div class="gloss-item"><div class="term">E-Verify</div><div class="def">Federal online database that employers use to verify the work authorisation of new hires by checking against DHS and SSA records. Enrollment is voluntary for most private employers — but REQUIRED for STEM OPT placements.</div></div>
+      <div class="gloss-item"><div class="term">Prevailing Wage</div><div class="def">The minimum wage an employer must pay an H-1B worker for a specific role and location, as determined by the Department of Labor (DOL). Employers cannot pay H-1B workers below prevailing wage to save costs.</div></div>
+    </div>
+
+    <div class="callout gold" style="margin-top:28px;">
+      <div class="callout-icon">📚</div>
+      <div class="callout-body">
+        <h4>Session Recap — 8 Things That Must Be Automatic</h4>
+        <p>
+        <strong>01</strong> W-2 = employer withholds taxes, agency is employer of record in staffing.<br>
+        <strong>02</strong> 1099 = self-employed, self-taxed, 15.3% FICA, higher rate, higher risk.<br>
+        <strong>03</strong> C2H = contract first, permanent if it works — "paid interview" pitch.<br>
+        <strong>04</strong> W-2 only = compliance line, not preference — never submit 1099 or C2C.<br>
+        <strong>05</strong> Green Card = unlimited work auth, cleanest submission, prioritise for submission.<br>
+        <strong>06</strong> OPT = check the EAD expiry date against the contract end date first.<br>
+        <strong>07</strong> H-1B = employer-tied and often client-rejected — check job order before spending time on a call.<br>
+        <strong>08</strong> Work auth question comes AFTER brief pitch and interest check, BEFORE full qualification.
+        </p>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <button class="nav-btn" onclick="showPage('quiz')">← Practice Quiz</button>
+      <button class="nav-btn primary" onclick="showPage('intro')">↑ Back to Start</button>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<script>
+const PAGES = ['intro','usa','jobtypes','w2_1099','visa_overview','decision','scenarios','mistakes','quiz','glossary'];
+let visited = new Set(['intro']);
+
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  const pg = document.getElementById('pg-' + id);
+  if (pg) { pg.classList.add('active'); pg.scrollIntoView({behavior:'smooth',block:'start'}); }
+  document.querySelectorAll('.sb-nav a').forEach(a => {
+    a.classList.toggle('active', a.getAttribute('data-page') === id);
+  });
+  visited.add(id);
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = 6; // main content pages
+  const contentPages = ['intro','usa','jobtypes','w2_1099','visa_overview','decision','scenarios'];
+  const seen = contentPages.filter(p => visited.has(p)).length;
+  const pct = Math.round((seen / contentPages.length) * 100);
+  document.getElementById('progFill').style.width = pct + '%';
+  document.getElementById('progText').textContent = seen + ' of ' + contentPages.length + ' sections';
+}
+
+function switchTab(el, targetId) {
+  const parent = el.closest('.content-wrap') || el.parentElement.parentElement;
+  parent.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  parent.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  const tc = document.getElementById(targetId);
+  if (tc) tc.classList.add('active');
+}
+
+// Quiz
+const answers = {1:1, 2:2, 3:0, 4:1, 5:3, 6:2, 7:0, 8:1};
+const explanations = {
+  1: "✓ Correct! W-2 and 1099 are different employment tax classifications. A W-2 only req explicitly excludes 1099 arrangements — you must ask the candidate if they are willing to convert to W-2.",
+  2: "✓ Correct! If the EAD expires before the contract ends, the candidate must stop working mid-placement. Always flag to manager before submitting — never submit knowing the expiry won't cover the contract.",
+  3: "✓ Correct! A 1099 contractor pays 15.3% in self-employment tax (~$15,300 on $100k) — double the ~7.65% ($7,650) a W-2 employee pays, because the contractor bears both the employer and employee portions.",
+  4: "✓ Correct! If the job order says no H-1B transfer, end the call professionally and offer to add them to your database. Never mislead the candidate about a placement that cannot happen on this req.",
+  5: "✓ Correct! Standard OPT = 12 months post-graduation. STEM OPT = additional 24 months. Total = 36 months. Confusing these two means either underestimating or overestimating a candidate's available work auth.",
+  6: "✓ Correct! Healthcare clients typically require GC or USC only — not just W-2 compatibility. OPT/EAD on W-2 satisfies the W-2 requirement but may fail the GC/USC only requirement. Always read both fields on the job order.",
+  7: "✓ Correct! Green Card is the cleanest work auth outcome for a recruiter. No expiry date to track, no employer dependency, no transfer process, no sponsorship required. Any employer, any role, any time.",
+  8: "✓ Correct! The correct sequence is: (1) Confirm identity → (2) Brief pitch/interest check → (3) Work auth question → (4) Proceed only if compatible. Asking too early (before any rapport) feels abrupt; asking too late wastes 20 minutes."
+};
+const wrongMsg = {
+  1: "✗ Incorrect. W-2 and 1099 are different employment tax classifications. A W-2 only req explicitly excludes 1099 arrangements regardless of the candidate's preference.",
+  2: "✗ Incorrect. If the EAD expires before the contract ends, the candidate must legally stop working mid-placement. This is a compliance risk — flag to manager and do not submit.",
+  3: "✗ Incorrect. A 1099 contractor pays 15.3% in self-employment tax on $100k income (~$15,300), because they pay both the employee portion (7.65%) and the employer portion (7.65%) themselves.",
+  4: "✗ Incorrect. If the job order says no H-1B transfer, the answer is to end the call professionally and keep the candidate in your database. H-1B compatibility with W-2 is separate from a client's H-1B transfer policy.",
+  5: "✗ Incorrect. Standard OPT = 12 months. STEM OPT = 24 month extension = 36 months TOTAL. Distinguishing these two is a mandatory recruiter skill when screening F-1 visa holders.",
+  6: "✗ Incorrect. Healthcare clients often require GC or USC only — W-2 compatibility is not sufficient. An OPT EAD candidate on W-2 satisfies the employment type requirement but may fail the separate work auth restriction.",
+  7: "✗ Incorrect. While TN and OPT have advantages, Green Card provides the cleanest work auth: no expiry, no employer dependency, no transfer process. It is universally accepted and requires zero compliance tracking.",
+  8: "✗ Incorrect. Work auth comes after a brief pitch and interest check — but BEFORE the full skill qualification and pay negotiation. If you qualify for 20 minutes first, then discover the candidate needs H-1B sponsorship, that time is wasted."
+};
+
+let score = 0;
+let answered = {};
+
+function answerQ(el, isCorrect, qNum) {
+  if (answered[qNum]) return;
+  answered[qNum] = true;
+  const opts = el.parentElement.querySelectorAll('.opt');
+  opts.forEach(o => { o.style.pointerEvents = 'none'; });
+  const fb = document.getElementById('fb-' + qNum);
+  if (isCorrect) {
+    el.classList.add('correct');
+    fb.textContent = explanations[qNum];
+    fb.className = 'q-feedback show ok';
+    score++;
+  } else {
+    el.classList.add('wrong');
+    // highlight correct
+    const correctIdx = answers[qNum];
+    opts[correctIdx].classList.add('correct');
+    fb.textContent = wrongMsg[qNum];
+    fb.className = 'q-feedback show no';
+  }
+}
+
+function showScore() {
+  const total = 8;
+  const sv = document.getElementById('scoreVal');
+  const sf = document.getElementById('scoreFeedback');
+  sv.textContent = score + '/' + total;
+  const pct = Math.round((score / total) * 100);
+  let msg = '';
+  if (pct === 100) msg = "Perfect score. You are ready for your first live call.";
+  else if (pct >= 75) msg = "Strong foundation. Review the questions you missed and re-read the relevant sections.";
+  else if (pct >= 50) msg = "Good start. Go back through the Decision Matrix and Screening Scenarios sections before your next session.";
+  else msg = "Keep studying. Re-read Part A (W-2 / 1099) and Part B (Visa Overview) before attempting again.";
+  sf.textContent = msg;
+  document.getElementById('quizScore').style.display = 'block';
+  document.getElementById('quiz-btn').style.display = 'none';
+}
+
+// Init
+updateProgress();
+</script>
+</body>
+</html>
+
+
+Start: US Economy & Geography →
