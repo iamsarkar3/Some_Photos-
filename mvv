@@ -1,0 +1,604 @@
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+0
+What Is Boolean Search — and Why It Exists
+The concept, the context, and the number you must never forget.
+🔗
+Where This Topic Fits in the Full Learning Chain
+JD Analysis
+Topic 2 · Step 1
+→
+TSTE Table
+Topic 2 · Step 2
+→
+Boolean String
+Topic 3 — YOU ARE HERE
+→
+Refine & Sample
+Topic 3 · Part 2
+→
+Screening Call
+Week 1
+Your TSTE table identified what to look for. Boolean Search is the system that tells the job board how to find it. Think of TSTE as your blueprint and the Boolean string as the search command you type. Every step in this chain affects the next — a weak Boolean string means wasted hours on screening calls for the wrong candidates.
+📖
+The Definition: What Boolean Search Actually Is
+Core Concept
+Boolean Search is a structured string of keywords connected by logical operators (AND, OR, NOT, parentheses, and quotes) that instructs a search engine or ATS to return only candidates whose resumes match a specific combination of criteria. It is named after 19th-century mathematician George Boole, who developed the algebra of logic this is built on. It is used in every major job board (Dice, LinkedIn Recruiter), ATS (Ceipal), and sourcing tool.
+💡
+Boolean search is not magic — it is systematic keyword logic. A recruiter who masters it separates a 3-hour talent pool build from a 3-day one. The same 8-hour workday produces 5× more screened candidates when Boolean strings are accurate.
+🎯
+The Magic Number: Why 150–200 Candidates Is Your Target
+Every sourcing session has a goal. That goal is not "as many candidates as possible." It is a pool of 150–200 relevant profiles. Here is why that number matters:
+⚠️ Too Few (<30)
+<30 candidates
+Not enough to screen. Risk: the 2–3 qualified people get contacted by other agencies first. Your pipeline runs dry after one rejection or unavailability.
+✅ Sweet Spot (150–200)
+150–200 candidates
+Enough quality candidates to screen 8–10 good profiles. High enough to absorb dropouts and rejections. Low enough that every profile can be reviewed in a single day.
+⚠️ Too Many (500+)
+500+ candidates
+Signal drowned in noise. Sampling reveals mostly irrelevant profiles. You waste time calling wrong people. Your Boolean string needs tightening.
+The Chain That Makes Placements
+Good JD understanding → Good sourcing criteria → Good Boolean string → Right-size talent pool → Better screening calls → More relevant submissions → Higher interview rates → More offers → More starts (placements).
+
+Every step degrades if the Boolean string is wrong. Contaminated sourcing = wasted screening hours = missed placements = missed revenue.
+⚡ Quick Recall — Section 0
+Boolean = keyword logic — not guessing. Named after George Boole.
+Target pool: 150–200. Under 30 = pipeline risk. Over 500 = tighten your string.
+TSTE → Boolean. Your table is the input; the string is the execution.
+Wrong string = wrong calls. Every downstream step is affected by sourcing quality.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+1
+The 6 Boolean Operators
+Learn all six. Misuse any one of them and your search either returns nothing or returns everything.
+🧠
+AND, OR, and parentheses account for 95% of what you actually type in a real search. Master these three first. NOT and quotes come next. NEAR is least common in daily practice.
+AND
+AND — The Narrower
+Both terms MUST appear on the resume. Every AND layer you add approximately halves your candidate pool. Use AND to connect the separate skill layers in your string — not to connect synonyms.
+
+Real-world logic: If you have 1,000 Java resumes and add AND Spring Boot, you might be left with ~400 (those who have both). Add AND REST API and you're at ~200. This is intentional narrowing.
+Java AND Spring Boot
+✗
+JavaANDJ2EE — these are the same skill written differently. Connect synonyms with OR, not AND. Using AND here means the candidate must literally write both words on their resume.
+OR
+OR — The Expander
+Either term matches. Use OR inside parentheses to capture all the different ways a candidate might write the same skill, technology, or job title. OR expands your pool.
+
+Why this matters: One candidate writes "Java Developer" on their resume. Another writes "Software Engineer." Another writes "Backend Developer." Without OR, your string misses two out of three.
+Java OR J2EE OR "Core Java"
+✗
+(Java OR Python OR AWS) — mixing unrelated skills in one OR group contaminates results. Java and Python are different skill categories — they must be in separate AND layers, not the same OR group.
+NOT
+NOT — The Excluder
+Permanently excludes candidates whose resumes contain the specified term. Use sparingly — NOT is aggressive and removes profiles you cannot recover without re-running the search.
+
+Best use case: When a very common word is contaminating your pool. Classic example: searching for Java developers and getting JavaScript developers polluting your results. Adding NOT JavaScript filters them out — carefully.
+Java NOT JavaScript
+✗
+Java NOT JavaScript NOT Ruby NOT Python NOT Android — over-excluding removes candidates who have Java as their primary skill but listed other languages as secondary. You'll lose real Java developers this way.
+( )
+Parentheses — The Grouper
+Groups OR alternatives into one logical unit. The parentheses tell the search engine: evaluate this OR group first, THEN apply the AND. Without parentheses, AND takes precedence and your entire logic breaks silently.
+
+Math analogy: 2 + 3 × 4 = 14, not 20. Multiplication (like AND) evaluates before addition (like OR) unless you use parentheses. This is the exact same rule.
+(Java OR J2EE) AND (Spring Boot OR Spring)
+✗
+Java OR J2EE AND Spring Boot — without parentheses, this reads as:Java OR (J2EE AND Spring Boot). The result: Java generalists with no Spring required, plus J2EE+SpringBoot candidates — not what you wanted.
+" "
+Quotes — The Exact Matcher
+Forces an exact phrase match. The search engine returns only resumes where both words appear together in that exact order. Without quotes, the engine finds each word anywhere on the resume — which may mean completely unrelated contexts.
+
+Why it matters: Without quotes, "Spring Boot" matches a resume that says "... spring semester project using node... then bootcamp..." — an irrelevant result. With quotes, it only matches candidates who actually wrote Spring Boot as a technology.
+"Spring Boot" vs Spring Boot (no quotes)
+✗
+"Java developer" — quoting a job title exactly is too restrictive. A candidate may write "Java Software Engineer" or "Senior Java Dev." Use job title variants connected with OR instead of quoting a specific title.
+NEAR
+NEAR — The Proximity Operator
+Requires that two terms appear within N words of each other on the resume. NEAR/5 means within 5 words. Less commonly used in daily practice.
+
+Critical limitation: LinkedIn Recruiter does NOT support NEAR. If you copy a Dice string containing NEAR into LinkedIn, it returns zero results with no error message — it silently fails. Always check platform support before using.
+Java NEAR/5 Spring
+✗
+Using NEAR on LinkedIn — the operator is ignored silently. You will see zero results and assume no candidates exist. Always verify whether the platform you are using supports NEAR before including it in your string.
+⚡ Operator Memory Map
+AND = narrows. Different skills. Halves pool with each layer.
+OR = expands. Same skill, different words. Always inside ( ).
+NOT = removes. Use sparingly. One at a time. Never stack.
+( ) = groups. Every OR group MUST be in parentheses. No exceptions.
+" " = exact phrase. Multi-word skills and technologies only.
+NEAR = proximity. Not supported on LinkedIn. Use cautiously.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+2
+Building a String — Layer by Layer
+From TSTE table to complete Boolean string. One rule governs everything: OR within a layer, AND between layers.
+The Master Rule
+OR connects synonyms for the SAME skill inside parentheses.
+AND connects DIFFERENT skill layers.
+One layer = one concept. Never mix different concepts inside the same OR group.
+🔧
+Step-by-Step String Construction — Java Software Engineer Example
+1
+Title Layer — The Widest Filter
+Start with the job title and ALL variants from your TSTE T-row. Any of these titles on the resume signals the candidate has done this type of work. Be generous — candidates write the same job in 5 different ways.
+Layer 1 — Title OR Group
+("Java Developer" OR "Software Engineer" OR "Java Software Engineer" OR "Backend Engineer" OR "Application Developer")
+2
+Deal-Breaker Skill — The First AND Layer
+AND the most critical skill. This is the skill that causes automatic rejection if missing. For Java roles, that is Spring Boot. If they don't have it, the screening call is wasted. Add this as the first filter after the title layer.
+Layer 1 + Layer 2
+("Java Developer" OR "Software Engineer") AND ("Spring Boot" OR "Spring Framework" OR "Spring MVC")
+3
+Next Core Skill — Second AND Layer
+AND the next required skill. Keep adding one AND layer at a time. Pause after each layer and think: "What does this string currently return? Am I cutting too aggressively?" Stop at 4–5 AND layers for Pass 1.
+Layers 1 + 2 + 3
+("Java Developer" OR "Software Engineer") AND ("Spring Boot" OR "Spring Framework") AND ("REST API" OR RESTful OR Microservices)
+4
+Preferred Skills — One Grouped OR Layer
+All preferred/nice-to-have skills go into ONE grouped OR layer. This means the candidate needs at least one of them — not all. Grouping them together keeps Pass 1 strict without demanding every preferred tool.
+Full Pass 1 String
+...layers above... AND (AWS OR Docker OR Kubernetes OR Jenkins OR Agile OR Scrum)
+✅
+The Complete Pass 1 String — Java Software Engineer
+Complete Pass 1 — Java Software Engineer
+("Java Developer" OR "Software Engineer" OR "Java Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework" OR "Spring MVC")
+ AND ("REST API" OR RESTful OR Microservices OR "Microservice Architecture")
+ AND ("Java 11" OR "Java 17" OR Java)
+ AND (AWS OR Docker OR Kubernetes OR Jenkins OR Agile OR Scrum)
+TSTE Row	Maps To	String Layer
+T — Title	Layer 1 (title OR group)	"Java Developer" OR "Software Engineer" OR...
+S — Skills	Layers 2, 3, 4 (one AND per core skill)	"Spring Boot" · "REST API" · Java versions
+T — Tools	Layer 5 (preferred group — all in one OR)	AWS OR Docker OR Kubernetes OR Jenkins
+E — Education	⛔ NOT inside the string	Use the platform's built-in experience/education filters only
+⛔ Education Rule — Critical
+NEVER put education requirements inside the Boolean string. Adding "Bachelor's degree" or "B.Sc" to the string creates complex nested logic errors that almost always break the search. Use the platform's dedicated Experience and Education filter fields instead. These are separate from the keyword Boolean field.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+3
+Platform Syntax — Dice vs LinkedIn Recruiter
+Same Boolean logic, different syntax rules. Know both platforms before you type a single character.
+🎲 Dice.comBest for IT/Tech roles
+Where to type
+Advanced Search → Keywords field. Paste full Boolean string here.
+AND / OR / NOT
+✓ All supported
+Parentheses
+✓ Supported
+Quotes
+✓ Supported
+NEAR
+✓ NEAR/N supported (e.g., Java NEAR/3 Spring)
+Caps rule
+MUST capitalise operators. 'and' is treated as the word "and", not a Boolean operator.
+Best practice
+Keywords field: full string. Set experience: 3–8 yrs. Location + radius. Active within 6 months.
+🔵 LinkedIn RecruiterBest for passive candidates
+Where to type
+Recruiter Search → Keywords field OR free-text bar. Full Boolean string in Keywords.
+AND / OR / NOT
+✓ All supported
+Parentheses
+✓ Supported
+Quotes
+✓ Supported
+NEAR
+✗ NOT supported. Silently fails — returns zero results with no error message.
+Caps rule
+Case-insensitive for operators. "and" and "AND" both work. Capitalise as best practice.
+Key difference
+Searches the full profile — job titles, endorsements, About section, not just resume text. More reach, potentially more noise.
+⚠️
+Critical Warning: If you copy a Dice string containing NEAR into LinkedIn, it returns zero results with absolutely no error message. LinkedIn silently ignores the NEAR operator. You will then assume no candidates exist for this role — but they do. Always remove NEAR before pasting into LinkedIn.
+🔄
+Recommended Workflow: Dice + LinkedIn Together
+1
+Run Dice First — for Accuracy
+Dice searches resume text only, giving cleaner, more precise results. Run your Pass 1 string here. Sample 10 profiles for accuracy before doing anything else.
+2
+Run LinkedIn Second — for Volume + Passive Candidates
+LinkedIn searches the full profile including endorsements and About sections. You'll find candidates who haven't updated their resume but are still a match. Remove NEAR from your string before pasting.
+3
+Merge and Deduplicate in Ceipal
+Import both Dice and LinkedIn results into Ceipal. The ATS will flag duplicates. You now have one clean, merged pool from both sources to screen from.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+4
+The 3-Pass Framework — Strict to Relaxed
+Never start wide and narrow. Always start strict, validate accuracy, then expand deliberately.
+The Core Principle
+A wide, inaccurate pool of 400 candidates takes longer to screen than a strict, accurate pool of 30 — because you waste time calling the wrong people. If your Pass 1 gives you 30 highly relevant candidates, your sourcing job is done. Start screening. You do not need 200 mediocre candidates if you have 30 excellent ones.
+Pass 1 String — Java (Strict)
+("Java Developer" OR "Software Engineer")
+ AND ("Spring Boot")
+ AND ("REST API" OR Microservices)
+ AND (AWS OR Docker)
+What to do after running Pass 1
+Sample 5–10 random profiles. Ask: are these people qualified for this role?
+• Yes, 7+ out of 10 are relevant → add to hotlist and move to Pass 2
+• No, string seems to be returning wrong candidates → string is broken. Fix it before continuing. Do NOT move to Pass 2 yet.
+📍
+Geography Filters — The Commute Radius Rule
+The $1 = 1 Mile Rule of Thumb
+For every $1/hour in the pay rate, a candidate will typically commute approximately 1 mile. This is a starting point, not a guarantee. Cap at 25–30 miles regardless of pay rate unless no candidates are found closer — candidates beyond 30 miles have significantly higher offer dropout rates.
+Role Type	Pay Rate	Starting Radius	Notes
+CNA, Phlebotomist	$18–22/hr	15–20 miles	Low pay = small commute tolerance. Urban areas: 10 miles.
+LPN, MLT	$30–40/hr	20–25 miles	Mid pay. Start at 20 miles, expand if needed.
+RN, Java Engineer	$50–65/hr	25–30 miles (cap)	Cap at 30 miles even though math suggests more.
+Senior RN, Sr Engineer	$70–85/hr	30 miles (cap)	High earners commute more but cap prevents low-quality noise.
+Remote role (any)	Any	State / National	No commute constraint. Start statewide, expand nationally.
+→
+When to Expand Geography
+Start: Apply the commute rule. Run Pass 1 at starting radius. → If results <30: Double the radius. Re-run. Sample accuracy. → If still <30 nationwide: Expand to statewide — this is a genuine market shortage. → If still sparse statewide: Try nationally. If 500+ nationally but 0 locally, this role may need relocation candidates or remote consideration.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+5
+Reading Your Results — The 4-Scenario Decision Tree
+You run your Pass 1 string. Here is the exact action for every possible outcome.
+A
+Zero or very few results (<10)
+Cause: String is too strict OR the skill combination is genuinely rare in this market.
+Action sequence:
+•	Run the SAME string nationally (remove location filter first)
+•	If national = many → geography is the problem, not the string
+•	If national = still few → string is over-AND-ed. Remove 1 AND layer (start with least critical)
+•	Check keyword mismatch — look at 5 actual profiles: what language do those candidates use?
+•	Never assume "no candidates exist" without testing nationally first
+B
+Many results, mostly relevant
+Cause: String is working well. Pool is accurate.
+Action sequence:
+•	Sample 10 random profiles. If 8+ are qualified — proceed
+•	Start screening immediately — these are your best candidates
+•	Add to hotlist as you screen. Track availability and pay rate
+•	After screening 30–40: consider narrowing radius if pool is very large
+C
+Many results, mostly irrelevant
+Cause: String is contaminated. A keyword is matching unintended profiles.
+Action sequence:
+•	Sample 10 profiles — identify what type of irrelevant candidates keep appearing. That is your contaminant.
+•	Add NOT [contaminant] — one at a time only
+•	Example: JavaScript devs appearing → add NOT JavaScript (but check this doesn't remove genuine Java+JS profiles)
+•	Remove one thing. Retest. Then decide. Never remove multiple things simultaneously.
+D
+Many results, all highly relevant
+Cause: String is working — possibly slightly too broad for this stage.
+Action sequence:
+•	If 500+: tighten OR groups, add a preferred skills AND layer, reduce radius
+•	This is a good problem — save loose string for Pass 2
+•	Add one more AND layer (a core skill left out of Pass 1)
+•	Add 'last active' recency filter (active within 3–6 months)
+🚨
+Scenario A is the most critical to understand. Freshers panic when they see zero results and assume the role is unfillable. Almost always, it is a geography problem or an over-AND-ed string. The national search test immediately reveals which one it is. Never change your string without first removing the location filter.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+6
+The 8 Common Errors — With Broken Strings and Fixes
+Every one of these will happen to you. Recognise them early — the fix is always faster than the consequence.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+7
+Hotlists — Your Fastest Source Before Any Boolean Search
+A warm candidate who already knows you converts 3× faster than a cold Boolean lead. Always check your hotlist first.
+What a Hotlist Is
+A curated, up-to-date list of candidates your agency has previously screened, with whom you have an existing relationship and whose skills, pay expectations, and availability are already known. Maintained in Ceipal using the rating/star system. The hotlist is your fastest, highest-conversion sourcing channel — it costs zero sourcing time because the initial work has already been done.
+⭐
+How to Build and Maintain Your Hotlist
+📞
+After Every Call — Log Immediately
+Log the candidate in Ceipal whether you submitted them or not. Record: skill set, pay expectation, work auth, availability date, location, and notes from the conversation.
+⭐
+Use the 5-3-1 Star Rating System
+5-star: Excellent fit, strong rapport, would work with again immediately. 3-star: Qualified but concerns (pay mismatch, skills gap). 1-star: Unqualifiable — do not call again.
+🏷️
+Tag by Specialty
+Use Ceipal tags: Java Developer · ICU RN · Business Analyst · Travel Nurse. When a new req comes in, search hotlist by tag before sourcing externally.
+🔄
+Update at Every Touchpoint
+When a candidate's contract ends, when they call you, when they change jobs — update Ceipal immediately. A stale hotlist is worse than no hotlist. Also track RTR history and whether the candidate reliably started placements.
+Sourcing Priority Order — Every Single Req
+1
+Hotlist — 5-Star Candidates
+Search Ceipal by role tag. Call 5-star candidates first. They know you, they are qualified, and they convert fastest.
+3× faster
+2
+Hotlist — 3-Star Candidates
+Were close but not placed. Circumstances change. A 5-minute call may reveal they are now available and open.
+Fast
+3
+Previous Applicants in Ceipal
+Candidates who applied to similar past reqs. Check the Applicants tab for this skill match before sourcing externally.
+Medium
+4
+Boolean — Pass 1 (Dice + LinkedIn)
+Run your strict string. Fresh sourcing. Most time-intensive but reaches candidates not yet in your database.
+Time-intensive
+5
+Boolean — Pass 2 & 3
+Expand pool only after hotlist and Pass 1 are exhausted or pool size is genuinely insufficient.
+Last resort
+📈
+Recruiters who build their hotlist from day one have a significant advantage within 3–6 months. Their Boolean needs become smaller and smaller as their warm pipeline grows. Recruiters who never maintain their hotlist are permanently dependent on cold sourcing for every single req — the equivalent of starting from zero every single day.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+8
+Practice — Build the Business Analyst Boolean String
+Your Topic 2 TSTE homework is the input. This activity is the output. Use this section as your step-by-step guide.
+🏗️
+Step-by-Step: Business Analyst Boolean String Builder
+1
+Title Layer (5 min)
+Take the T-row from your BA TSTE table. Build the first OR group. Wrap in parentheses.
+
+Example — BA Title Layer
+("Business Analyst" OR BA OR "Systems Analyst" OR "Requirements Analyst" OR "Process Analyst" OR "Functional Analyst")
+2
+Skills Layers (8 min)
+For each core skill in your S-row, create one AND layer. Build 3–4 AND layers for Pass 1. Put the deal-breaker skill first.
+
+Example — BA Skills Layers
+...title layer above...
+AND ("requirements gathering" OR "business requirements" OR BRD OR FRD)
+AND (SQL OR "data analysis" OR Excel OR "data modelling")
+AND (Agile OR Scrum OR Waterfall OR "project management")
+3
+Tools Layer (3 min)
+Take your T-row (tools). Group ALL tools in one OR layer. This is your preferred group.
+
+Example — BA Tools Layer
+AND (JIRA OR Confluence OR Visio OR Tableau OR "Power BI" OR Salesforce)
+4
+Run on Dice or Ceipal (7 min)
+Paste your string into the Keywords field. Set location: Chicago, IL + 25 miles. Set experience: 3–8 years. Record your result count in the space below.
+5
+Sample and Report (5 min)
+Open 5 random profiles from your results. Are they Business Analysts with the right skills? Count how many are relevant. Share your count and accuracy % with the group.
+📊
+What to Do Based on Your Result Count
+Your Result Count	Status	Action
+<20	Too few	Remove 1 AND layer. Run nationally. If still few → keyword mismatch (look at 5 profiles, check their actual language)
+20–150	Good range	Sample 10. If 7+ are relevant → proceed to screening. Flag the irrelevant 3 — identify the contaminant.
+150–500	Large pool	Add one more AND layer (a tool or preferred skill) to sharpen Pass 1, or save loose string for Pass 2.
+>500	Over-broad	Add an AND layer or narrow radius. Do not start screening a 500-person pool — most will be wrong.
+✅
+The 8 Things That Must Be Automatic by End of Week
+Tick each one as you feel genuinely confident. Your progress bar updates with each check.
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+9
+Self-Test Quiz — 10 Questions
+Test your understanding before the trainer session. No scores saved — this is purely for your own revision.
+1. Your Pass 1 Boolean string returns only 8 candidates. What should you do FIRST?
+Switch immediately to Pass 3 to get more resultsRemove the location filter and run the same string nationallyAdd a NOT layer to clean up the resultsAdd one more AND layer to improve precision
+2. What does this string ACTUALLY return? (Remember: AND evaluates before OR without parentheses)
+Java OR J2EE AND Spring Boot
+All candidates who have (Java OR J2EE) AND Spring BootJava candidates (any Java, no Spring needed) OR candidates who have both J2EE AND Spring BootOnly candidates who have all three: Java, J2EE, and Spring BootZero results — the string is invalid without parentheses
+3. You are sourcing for a role at $55/hr in Chicago. What starting search radius should you use?
+10 miles15 miles25–30 miles (capped regardless of pay rate)55 miles (the full $1-per-mile calculation)
+4. Your Pass 1 string returns 400 candidates but sampling reveals most are JavaScript developers when you wanted Java developers. What is the correct first action?
+Remove all title variants except "Java Developer"Switch to Pass 3 for more candidatesAdd NOT JavaScript to the string, then retest and sample again before doing anything elseRerun the search nationally to dilute the contamination
+5. Where should you ALWAYS look before running a Boolean search on Dice or LinkedIn?
+The job description againCall the client for clarification firstYour Ceipal hotlist — search by role tag for 5-star candidates firstYour manager, to check if the role is still open
+6. A JD says "Electronic Health Record proficiency." What keyword(s) should you put in your Boolean string?
+Electronic Health Record proficiencyEpic OR Cerner OR Meditech OR EMR OR EHR OR PointClickCareEHR onlyProvide Electronic Health Record documentation for all patients
+7. You are building a Pass 1 string. You have 7 AND layers. What is the likely consequence?
+You will get too many results — the string is too broadNear-zero results — each AND halves the pool, 7 layers ≈ 1/128th of starting poolPlatform error — Dice and LinkedIn have a 5-layer AND limitA perfectly sized 150–200 candidate pool
+8. What is the critical difference between Dice and LinkedIn Recruiter for Boolean searches?
+Dice supports AND/OR but LinkedIn only supports ORLinkedIn requires all operators to be capitalised; Dice does notNEAR is supported on Dice but NOT supported on LinkedIn (silently fails with zero results)Dice does not support NOT; LinkedIn does
+9. Which of these belongs INSIDE a Boolean string?
+Bachelor\'s degree OR B.Sc OR Masters5 years experience OR 5+ years OR 5-7 yearsTeam player OR proactive OR results-drivenAWS OR Docker OR Kubernetes OR Jenkins
+10. Your Pass 1 search returns 180 candidates and sampling shows 8 out of 10 are qualified. What should you do?
+Run Pass 2 immediately to build a bigger poolAdd NOT layers to remove the 2 irrelevant candidatesStart screening immediately. Add candidates to Ceipal hotlist as you go. This is the goal.Consult your manager before making any calls
+Week 2 · Topic 3Boolean Search Strings
+IntroOperatorsBuildingPlatforms3-PassResultsErrorsHotlistsPracticeQuizGlossary
+Your Progress
+0%
+Pacer Staffing · L&DLearner Reference
+Boolean Search Strings
+Build it. Refine it. Fill it.
+Your TSTE table from Topic 2 was the plan. This session is where it becomes a real search string you can run on Dice or LinkedIn right now.
+Live Example — Java Software Engineer · Pass 1 String
+("Java Developer" OR "Software Engineer" OR "Backend Engineer")
+ AND ("Spring Boot" OR "Spring Framework")
+ AND ("REST API" OR RESTful OR Microservices)
+ AND (AWS OR Docker OR Kubernetes)
+6Boolean Operators
+3Pass Framework
+8Common Errors
+150–200Target Pool Size
+10
+Glossary — 20 Terms You Must Own
+Every term you will hear on the job, in training, and during debrief sessions.
+AND
+Boolean operator that requires BOTH connected terms to be present on the candidate's resume. Narrows the pool. Each AND layer approximately halves result count.
+OR
+Boolean operator where EITHER term is sufficient. Expands results. Used inside parentheses to group synonyms for the same skill or title variant.
+NOT
+Boolean operator that permanently excludes resumes containing the specified term. Use sparingly — one at a time. Most useful for filtering out contaminating keywords.
+NEAR/N
+Proximity operator requiring two terms to appear within N words of each other. Supported on Dice. NOT supported on LinkedIn Recruiter — silently returns zero results there.
+Boolean String
+A structured combination of keywords and operators typed into a search engine or ATS to retrieve only candidates matching a specific set of criteria. Named after mathematician George Boole.
+Pass 1 / Pass 2 / Pass 3
+The 3-pass sourcing framework. Pass 1 is strict (all deal-breakers). Pass 2 is moderate (one fewer AND layer). Pass 3 is relaxed (title + 1 core skill). Always run in order — never skip to Pass 3.
+Level Spillage
+The error where OR groups are not wrapped in parentheses, causing AND to split OR groups and create unintended logic. The most common Boolean structural error — produces wrong results silently.
+Keyword Mismatch
+The gap between JD language (what the hiring manager wrote) and resume language (what the candidate actually wrote). Searching with JD language often returns zero results even when candidates exist.
+Talent Pool
+The total number of candidate profiles returned by your Boolean string on a given platform. Target: 150–200 for most roles. Under 30 is insufficient. Over 500 requires tightening the string.
+Hotlist
+A curated list of previously screened candidates maintained in Ceipal with star ratings, skill tags, pay expectations, and availability notes. The highest-conversion, fastest sourcing channel available to a recruiter.
+Ceipal
+The Applicant Tracking System (ATS) used by Pacer Staffing. Used to store candidate profiles, maintain the hotlist, track submissions, and manage the full recruitment workflow.
+ATS
+Applicant Tracking System. Software that manages candidate information, job openings, and the recruitment workflow. Ceipal is Pacer's ATS. Dice and LinkedIn are sourcing platforms, not ATS tools.
+TSTE Table
+Title–Skills–Tools–Education table. Built in Topic 2 from JD analysis. The T column populates your Boolean title layer. The S and T columns populate your AND layers. The E column uses platform filters, not Boolean.
+Deal-Breaker Skill
+The single skill whose absence causes automatic rejection on the screening call. Goes into the first AND layer after the title group in your Boolean string. Most critical narrowing filter in Pass 1.
+Contamination
+When a Boolean string returns irrelevant candidate profiles because a keyword in the string also matches unintended roles. Diagnosed by sampling 10 results. Fixed by adding one specific NOT layer at a time.
+Over-AND-ing
+Building a Boolean string with too many AND layers (typically 6+), causing near-zero results because every additional AND roughly halves the candidate pool.
+Sampling
+Opening 5–10 random candidate profiles after running a Boolean string to check whether results are relevant. The only way to validate string accuracy before investing time in screening calls.
+Commute Radius Rule
+For every $1/hr in pay rate, a candidate typically commutes ~1 mile. Used as the starting geography radius. Capped at 25–30 miles regardless of pay rate to avoid high dropout rates at offer stage.
+Dice.com
+A US job board primarily used for IT and technology roles. Supports full Boolean operators including NEAR/N. Operators (AND/OR/NOT) must be capitalised to function correctly.
+Exact Phrase Match
+What happens when you wrap a multi-word term in double quotes. The engine returns only resumes where those exact words appear together in that exact order. Use for multi-word technologies: "Spring Boot", "REST API", "New York".
+
