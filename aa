@@ -1,0 +1,165 @@
+Pacer Staffing · L&D
+Visa & Work Authorization
+Reading Progress
+5 of 7 sections
+Overview
+Introduction & Agenda
+Part A — Employment
+US Economy & GeographyJob Types: PERM / C / C2HW-2, 1099 & the Compliance Line
+Part B — Visas
+Visa Overview & TypesDecision MatrixScreening Scenarios
+Reference
+Common MistakesPractice QuizGlossary
+Part B · Section 1
+US Visa Overview — Every Type You Will Encounter on a Call
+All US visas split into two categories: immigrant (permanent) and non-immigrant (temporary). The category determines whether work authorisation is permanent or restricted.
+Immigrant Visa
+Green Card Path — Permanent
+•	Intent: permanent residence and eventual US citizenship
+•	Work auth: unlimited — any employer, any role
+•	Duration: permanent (Green Card renewed every 10 years)
+•	Result: Lawful Permanent Resident (LPR)
+•	Path to citizenship: 3 years (married to USC) or 5 years (other paths)
+Non-Immigrant Visa
+Temporary Stay — Restricted
+•	Intent: temporary presence for specific purpose (work, study, business)
+•	Work auth: restricted — tied to employer, purpose, or duration
+•	Duration: varies by type (3 months to 6 years typically)
+•	Result: worker must leave, extend, or change status when visa expires
+•	Examples: F-1 (student), H-1B (worker), L-1 (intra-company), TN (NAFTA)
+⭐
+The Recruiter's Work Auth Hierarchy
+Green Card = EAD > USC > TN > H-1B
+
+Green Card and USC are always the cleanest submissions — no expiry tracking, no employer dependency, no transfer delays. When you find a Green Card candidate, submit fast — every other agency is looking for them too. EAD is good if the expiry date covers the contract period. H-1B is the most complex — employer-tied, transfer required, cap lottery risk.
+________________________________________
+F-1 / OPT / STEM OPT
+H-1B
+Green Card & EAD
+TN / L-1 / O-1
+F-1 Student Visa, OPT & STEM OPT
+Millions of international students graduate from US universities every year. Their work auth follows a specific path. Know each stage — this is one of the most common work auth types you will encounter in IT and tech recruiting.
+Stage 1
+F-1 Active (In School)
+Full-time student status. On-campus work only (≤20 hrs/week during semester). Cannot work off-campus without OPT or CPT. CPT: 12-month integrated work during curriculum.
+→
+Stage 2
+OPT (12 months)
+Post-graduation work auth. Valid for ANY employer — not tied to one company. Must use within 14 months of graduation. Does NOT require employer sponsorship.
+→
+Stage 3
+STEM OPT (+24 months)
+STEM field graduates only (CS, Engineering, Math, Science). Additional 24 months = 36 months total. Employer must be E-Verify enrolled. Must have Form I-983 training plan.
+→
+Stage 4
+H-1B (if sponsored)
+Employer files H-1B petition. Annual lottery cap: 85,000 visas. If approved: 3+3 years. If denied or no sponsor: must depart US.
+Your OPT/STEM OPT Recruiter Checklist
+•	Ask: "What type of work auth do you have?" → if OPT, ask: "Is it standard OPT or STEM OPT?"
+•	Ask: "What is your EAD expiry date?" — this is the hard deadline for the placement
+•	Check: Will the contract end BEFORE the EAD expires? If contract = 6 months and OPT expires in 4 months → DO NOT SUBMIT without flagging
+•	Ask: "Have you applied for H-1B sponsorship?" → if yes, what is the status? Pending lottery may create a gap.
+•	Understand Cap-Gap: OPT expires April 1 + H-1B filed + receipt notice = automatic extension until October 1 (H-1B start date). Candidate can continue working during cap-gap ONLY with I-20 extension and valid I-797C receipt notice.
+OPT/STEM OPT Placement Risks
+Risk 1
+EAD Expires Mid-Contract
+If OPT expires before contract ends, the candidate must stop working. The MSP will immediately remove them. Always verify expiry covers the full contract period — and add a buffer month.
+Risk 2
+No STEM Extension
+Not all STEM fields qualify. The employer must be E-Verify enrolled for STEM OPT. If the employer isn't enrolled, the STEM extension is invalid. Verify E-Verify status before placing.
+Risk 3
+H-1B Lottery Denial
+If the candidate is in the lottery and doesn't win, they must depart after OPT expires. You may lose a placed candidate mid-contract. Flag any OPT candidate with an active lottery petition to your manager.
+← W-2 & 1099Decision Matrix →
+H-1B Specialty Occupation Visa
+H-1B is the most common work visa for skilled professionals. It is also the most restrictive and the most often client-rejected visa type you will encounter.
+H-1B Visa
+Specialty Occupation — Employer-Tied
+H1B
+PurposeTemporary employment for "specialty occupation" workers — roles requiring at minimum a bachelor's degree. Common in IT, engineering, accounting, finance, medicine.
+DurationInitial 3 years. Extension to 6 years maximum. Further extensions if green card process is in progress.
+Annual Cap85,000 visas/year (65,000 regular + 20,000 US master's holders). If demand exceeds cap → lottery. Recent odds: ~1 in 3.
+Employer-TiedTied to the SPECIFIC EMPLOYER who sponsored it. Candidate cannot simply change jobs — must get H-1B portability transfer via AC21.
+Prevailing WageEmployer MUST pay the H-1B worker the prevailing wage for the role and location (set by DOL). Cannot underpay to save costs.
+Cost to SponsorUSCIS filing ($460) + legal fees ($1,500–$3,000) + optional premium processing ($2,500) = $4,000–$7,000+ total
+Most staffing agencies do NOT sponsor new H-1B visas — the cost, lottery risk, and timeline make it impractical for contract placements. If a candidate says "I need H-1B sponsorship" → your agency almost certainly cannot help. Be empathetic but clear: "We don't sponsor H-1B visas — you'd need to find a direct employer. If you obtain your own H-1B later, we'd love to work with you."
+H-1B Candidate Decision Flow on a Call
+Step 1
+Candidate says: "I am on H-1B"
+Don't proceed yet. Open the job order first.
+→
+Step 2
+Check job order
+"Does this req say No H-1B?"
+→
+Step 3a
+If YES: No H-1B
+End call politely. Do not proceed.
+Step 3b
+If H-1B Allowed
+Ask: "Who is your current H-1B sponsor?" "Are you open to transfer?"
+→
+Step 4
+Ask: I-94 Expiry
+"What is the expiry date on your H-1B approval / I-94?"
+→
+Step 5
+Flag to Manager
+H-1B transfer adds weeks. Always loop in manager before proceeding.
+Green Card & EAD — The Best Work Auth Outcomes
+Green Card holders have unlimited work authorisation. EAD holders have temporary but flexible work authorisation. Know the difference intimately — these two categories dominate your daily submissions.
+Green Card
+Permanent Resident Card — Form I-551
+GC
+StatusLawful Permanent Resident (LPR). Not a visa — a permanent immigration status.
+Work AuthUnlimited. Any employer, any role, any time. No sponsorship, no expiry, no restrictions.
+Physical CardCredit-card size. Predominantly green with Statue of Liberty holographic image. Expires every 10 years (for renewal — status itself is permanent).
+I-9 VerificationList A document — satisfies both identity AND work authorisation. No additional documents needed.
+PathwaysEmployment-based (EB-1 to EB-5) · Family-sponsored · Refugee/Asylee · Diversity Visa Lottery
+🌟 Green Card = the recruiter's dream. Prioritise GC candidates for submission. No expiry tracking, no employer dependency, no transfer delays. When you find a Green Card candidate who matches the req, submit first — every other agency is also looking for them.
+EAD
+Employment Authorization Document — Form I-766
+EAD
+StatusTemporary work permit issued to various immigration categories — OPT graduates, H-4 dependents, pending GC applicants, asylees, DACA recipients.
+Work AuthDepends on category. Most EADs allow any employer. H-4 EAD is restricted. Always check the visa category printed on the card.
+Physical CardCredit-card size. Predominantly red (2017+ design) with bald eagle holographic image. Expiry date is CRITICAL — employment stops when EAD expires.
+Key QuestionAlways ask: "What is your EAD expiry date?" and "What category is your EAD?" The category tells you the underlying immigration status.
+⚠️ GC-EAD is a special case: some candidates have an EAD based on a pending green card application (Form I-485). These candidates may also hold an active H-1B simultaneously — they use the EAD for employer flexibility and keep H-1B as backup. Strong work auth position from a recruiter's perspective.
+GC vs EAD — Quick Comparison
+Attribute	Green Card (I-551)	EAD (I-766)
+Work Auth	Unlimited, any employer	Depends on category — usually any, but confirm
+Expiry	10 yrs (for renewal — status permanent)	1–2 years — employment STOPS at expiry
+Employer Change	Freely — no notification required	Usually free — some categories restricted
+International Travel	Yes — with valid GC	Varies — some need Advance Parole
+Path to Citizenship	Yes — after 3–5 years	Depends on underlying status
+← W-2 & 1099
+TN, L-1 & O-1 — Other Visa Types
+Less common than H-1B or Green Card — but you will see these on resumes. Know what each means and how to handle them on a call.
+TN Visa
+NAFTA/USMCA Professional
+TN
+WhoCanadian and Mexican citizens ONLY — under USMCA (formerly NAFTA)
+OccupationsSpecific professional roles: engineers, accountants, scientists, computer systems analysts, lawyers, nurses, pharmacists
+Duration3 years, renewable indefinitely in 3-year increments — no maximum
+AdvantageNo lottery, no annual cap. Canadian citizens can self-petition at the border. Very fast processing.
+Employer-TiedYes — tied to specific employer and job title. Changing employers requires a new TN.
+TN is the most underrated option in US staffing. Canadian citizens can get a TN at the border in ONE DAY — no petition, no lottery, no waiting. For urgent reqs where H-1B transfers take too long, a TN-eligible Canadian can start almost immediately.
+L-1 Visa
+Intracompany Transfer
+L1
+WhoManagers/executives (L-1A) or specialised knowledge workers (L-1B) transferred within the same multinational company
+RequirementEmployee must have worked for the company 1+ year in the past 3 years at a foreign office
+DurationL-1A: up to 7 years. L-1B: up to 5 years
+GC PathL-1A holders can pursue EB-1C (multinational manager) green card — faster track than EB-2/EB-3
+Tied ToSpecific company ONLY — cannot change employers on L-1
+L-1 candidates typically work for large multinationals — IBM, Infosys, Tata, Wipro, Cognizant. If they say L-1 and are looking at your contract, ask who their current L-1 sponsor is. The L-1 needs to be transferred or they need to move to a different visa.
+O-1 Visa
+Extraordinary Ability
+O1
+WhoIndividuals with extraordinary ability in sciences, arts, business, athletics, or media — demonstrated through awards, publications, peer recognition
+Duration3 years initial + 1-year extensions (no maximum)
+AdvantageNo annual cap, no lottery. Can self-petition in some cases.
+Work AuthTied to specific employer/agent who files the petition
+O-1 holders are typically senior and specialised (researchers, executives, specialists). If you see this on a resume, it signals a high-value candidate. Work auth situation is similar to H-1B — employer-tied, transfer needed. Flag to manager.
+← W-2 & 1099Decision Matrix →
+
