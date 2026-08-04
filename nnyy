@@ -1,0 +1,511 @@
+JD Breakdown
+What Is a JD
+Caution Flags
+14 Fields
+Skill vs Tool
+Analysis
+TSTE Table
+Worked JDs
+Mistakes
+Self-Test
+Glossary
+Week 2 · Topic 2 · Recruitment Training
+Job Description
+Breakdown & Analysis
+Your complete reference guide — from first read before training to quick-look revision on the job. Every concept, every framework, every worked example in one place.
+
+What Is a JD
+3 Caution Flags
+14 Fields to Extract
+Hard Skill vs Soft Skill vs Tool
+4-Step Analysis
+Narrator Exercise
+TSTE Boolean Prep
+📖 How to use this document: Before your training session — skim through all sections to get familiar with the concepts. During training — follow along using the worked examples. After training — use the TSTE table, narrator framework, self-test, and glossary for revision and on-the-job quick reference.
+
+1
+Foundation
+What Is a Job Description?
+A JD is your starting point — not the final truth. It describes the role. But it passes through many hands before it reaches you, and each hand can distort it.
+
+💡
+The single most important thing to understand
+A JD ≠ the complete picture of what the client needs. It is a document — created by HR, filtered by legal, and often outdated. Your job is to read it critically, not accept it literally.
+
+📄 What a JD Typically Contains
+Overview / Summary
+What the team does, project context. Often generic — but useful for client background.
+Primary Responsibilities
+Core daily tasks. If there are 15+ bullets, the JD is inflated. Look for 3 that repeat or are most specific.
+Secondary / Ancillary Duties
+"Other duties as assigned." This is padding — don't let it drive your sourcing criteria.
+Skills & Tools
+Usually the most accurate section. Clients actually care about this. Check for version numbers.
+Qualifications & Education
+Often aspirational. "PhD preferred" often means Master's acceptable. Always clarify.
+Legal Disclaimers (EEO etc.)
+Boilerplate. Do not source from this section — it adds zero candidate criteria.
+🏗️ Who Creates a JD (and Why It Gets Distorted)
+Hiring Manager
+Writes the original — knows exactly what they need. This version is the most accurate.
+HR Department
+Reviews for policy compliance. Replaces specific language with generic terms. Accuracy reduces here.
+Legal Team
+Adds disclaimers and broadens language for DEI / compliance. More generalization.
+Committee / Approvers
+Adds "nice-to-haves" that become listed as requirements. JD inflates here.
+HRIS / VMS System
+Exports JD as raw data — formatting is lost. What you receive is often garbled output.
+YOU — The Recruiter
+Reconstruct, critically read, and interpret what the role actually needs. This is your job.
+⚠️
+JD vs Job Requisition (Req) — They Are NOT the Same
+Job Description (JD):
+Describes the role — skills, responsibilities, qualifications.
+Job Requisition (Req):
+The business/financial approval to hire. Contains: client name, req number, budget, timeline, bill rate.
+
+When a job order arrives in the VMS, it contains BOTH. Read the req header first — confirm title, location, duration, and rate — before spending time analyzing the JD.
+
+The Two Versions in Ceipal You Need to Know
+📋
+Original Job Description
+The JD received from the client or MSP as-is. May contain client-identifying information, internal comments, garbled formatting, and HRIS export artifacts. Never share this with candidates.
+
+✅
+Posting Job Description
+Cleaned, formatted version — with client identifiers removed. Can be pushed to job boards and your company's Jobs page. Always use this version when sharing JDs with candidates via email.
+
+2
+Caution
+Do Not Trust the JD Blindly
+Three things can make a JD misleading before it even reaches you. Spot these early — before you spend sourcing time chasing the wrong criteria.
+
+🔠
+Caution 1: Poorly Formatted
+Bullet points become paragraph walls. Special characters turn into symbols. Hiring manager comments get left in the body. The original structure disappears in the HRIS export.
+
+→ Flag: Rebuild the structure yourself before analyzing.
+💬
+Caution 2: Fluffy Language
+Precise technical language gets replaced by corporate jargon during HR/legal review. "Must be able to query production databases" becomes "Strong analytical skills."
+
+→ Flag: Read through jargon. Ask: what is the actual technical task?
+📈
+Caution 3: Inflated Demands
+The Pareto principle: 80% of the role's value comes from 20% of listed requirements. But committees add nice-to-haves alongside the 3 things that actually matter.
+
+→ Flag: Verify deal-breakers with manager before sourcing.
+📋 Caution 1 in Action: Before & After a Poorly Formatted JD
+This is a real example of what a VMS export looks like — and how a recruiter should reconstruct it.
+
+❌ What Arrives in the VMS (Raw Export)
+Java Software Engineer ** REMOTE ** EST hours - Fintech ** CONTRACT 6 months W2 ** IMPORTANT NOTE FROM HIRING MGR: MUST HAVE SPRING BOOT - NO EXCEPTIONS** Responsibilities include but are not limited to: design and develop scalable microservices; collaborate with cross-functional teams; work in agile environment; own delivery of features end to end; other duties as assigned (note: team is 8 ppl). Requirements: 5+ yrs Java; Spring Boot 2+ yrs; REST API exp; Micro svcs; AWS nice to have (EC2 S3 Lambda); Docker/K8s preferred; CI/CD - Jenkins. Educ: BS CS or related preferred. EEO Statement: Pacer Group is an equal opportunity employer...
+✅ What You Reconstruct (Recruiter's Version)
+Role: Java Software Engineer · Remote (EST) · 6mo Contract W2
+
+🔴 DEAL-BREAKER: Spring Boot (hiring manager confirmed — non-negotiable)
+
+Core Skills:
+• Java 5+ yrs
+• Spring Boot 2+ yrs
+• REST APIs
+• Microservices
+
+Nice-to-Have:
+• AWS (EC2/S3/Lambda)
+• Docker, Kubernetes
+• Jenkins CI/CD
+
+Team: Agile squad of 8
+Education: BS CS preferred (not required)
+Ignore: EEO statement — legal boilerplate
+🔍
+What to spot in a poorly formatted JD:
+CAPS LOCK NOTES
+— Hiring manager comments left in the body. Always read these — they reveal the real deal-breaker.
+** symbols and dashes
+— Formatting artifacts from the HRIS export. Strip them mentally; they carry no meaning.
+"Other duties as assigned"
+— Ignore for sourcing. Legal placeholder, not a skill requirement.
+💬 Caution 2 in Action: Translating Corporate Jargon
+The rule: If you could put the phrase on any resume for any industry — it is fluff. If you can't put it in a Boolean string — it's not a sourcing criterion.
+
+📄 JD Says (Fluffy)
+"Strong analytical and problem-solving skills"
+✅ What It Actually Means
+Can read and write SQL queries, debug production data pipelines, and identify root causes of system failures under time pressure.
+💡 Why
+'Analytical skills' means nothing. Look at the tools section — SQL and monitoring tools tell you the real requirement.
+📄 JD Says (Fluffy)
+"Excellent communication skills required"
+✅ What It Actually Means
+Must present technical findings to non-technical stakeholders weekly; write clear engineering documentation for a cross-functional team.
+💡 Why
+Communication is listed in 90% of JDs. What matters is: who are they communicating with, and in what format?
+📄 JD Says (Fluffy)
+"Ability to work in a fast-paced, dynamic environment"
+✅ What It Actually Means
+Agile sprint cycle with daily standups; expected to context-switch between 2–3 features simultaneously; some weekend deployment support.
+💡 Why
+"Fast-paced" often means understaffed. Ask your manager: what does it mean specifically for this team?
+📄 JD Says (Fluffy)
+"Self-starter with a passion for technology"
+✅ What It Actually Means
+Works independently with minimal direction; expected to own features end-to-end without handholding from senior engineers.
+💡 Why
+Never put 'self-starter' in a Boolean string. Assess this on the screening call — not during sourcing.
+📊 Caution 3 in Action: The 80/20 Priority Rule
+How to apply: Count requirements (>8 = assume inflation), look for repetition, look for specificity, check for CAPS LOCK notes, then confirm with manager.
+
+Priority	Item from the Java Engineer JD	Why This Priority	Sourcing Action
+🔴 Deal-breaker	Spring Boot 2+ years	Hiring manager stated "NO EXCEPTIONS" in CAPS LOCK	Screen for this in the first 2 minutes of every call
+🔵 Core	Java 11+ — 5+ years	Appears in overview, responsibilities, AND requirements = genuinely important	Boolean keyword. Immediate disqualification if missing.
+🔵 Core	RESTful API design	Specific and repeated. Required to perform the job.	Boolean keyword + screening question
+🔵 Core	Microservices architecture	Specific and repeated. Required to perform the job.	Boolean keyword + screening question
+🟢 Nice-to-have	AWS (EC2, S3, Lambda)	Listed as "nice to have" in original. Genuine preference, not a deal-breaker.	OR group in Boolean. Don't filter out candidates who lack this.
+🟢 Nice-to-have	Docker / Kubernetes, Jenkins CI/CD	Listed as "preferred" — can be learned on the job	OR group in Boolean. Positive signal, not a requirement.
+⬜ Ignore	Bachelor's degree in CS or related	Listed as "preferred" — client will waive for strong candidates	Clarify with manager. Do not screen out on education alone.
+⬜ Ignore	Excellent communication skills, Other duties as assigned	Boilerplate. Not searchable. Not a disqualifier.	Assess on call — never Boolean.
+3
+Break It Down
+The 14 Fields to Identify & Clarify
+Before analysis, extract every field from the JD. If a field is blank or ambiguous — flag it to your manager. Never source blind.
+
+🚫
+The Golden Rule
+Blank location + no confirmed rate + unclear shift = you cannot screen a single candidate properly. Always fill these gaps first, before opening any job board.
+
+📋 View All 14 Fields with Guidance
+▼
+#	Field	Why It Matters to You as a Recruiter	If Missing — Ask Your Manager
+01	Client	Industry context, culture, and household name factor. Look up the client before sourcing.	Is this confidential? What can I tell candidates without naming them?
+02	Title	Drives Boolean title variations. "Software Engineer II" = "Mid-level Developer", "Java Developer", etc.	Is there a level (junior/mid/senior)? Alternative titles the hiring manager uses?
+03	Location	Commute radius for onsite; time zone for remote. Compact licence relevance for healthcare.	Onsite, hybrid, or fully remote? If hybrid — how many days on-site?
+04	Duration	Governs urgency, logistics, and candidate commitment. 3-month vs 12-month attracts different people.	Extension or conversion to perm possible? Client's intent?
+05	Pay / Rate	Your negotiation anchor. Know the max pay before your first sourcing call. Never source blind on rate.	What is the bill rate and the margin floor?
+06	Shift Timing	Filters availability. Night-shift ICU list differs from day-shift. Remote: time zone alignment matters.	Core hours? Any standby or on-call requirements?
+07	Temp to Perm	Changes the conversation. Contract-to-hire opens passive candidates who'd decline a pure contract.	Defined conversion path? Trial period length and trigger conditions?
+08	Hard Skills	Your PRIMARY sourcing criteria — the MUST HAVEs. Missing a key hard skill = immediate disqualification.	Which are deal-breakers vs preferred? Minimum experience level per skill?
+09	Soft Skills	Culture fit indicators. Used in screening, not sourcing. You cannot Boolean-search for "self-starter."	What does team culture look like? How does the hiring manager describe ideal fit?
+10	Tools	Version-specific and often NON-SUBSTITUTABLE. AWS ≠ Azure. Confirm specific tools before sourcing.	Required or preferred? Is training provided on proprietary tools?
+11	Certifications	Mandatory in many fields. Missing a required cert = automatic rejection at submission.	Required day 1 or can it be in progress? Which body issues it?
+12	Education	Often aspirational. Clients say "degree required" but waive it for strong hands-on experience.	Equivalent experience acceptable? Minimum they'll actually consider?
+13	Deal-breakers	The 1–3 requirements causing automatic rejection. Confirm before sourcing — saves hours.	Of all requirements listed, which 3 cause immediate rejection?
+14	Missing Info	Blank location, rate, or shift = you cannot screen properly. Always fill gaps first.	Flag ALL blanks before sourcing. Do not source blind — period.
+📝 JD Reading Strategy: Three Passes
+⚡
+Pass 1 — Quick (2 min)
+Skim through without stopping. Get mental notes of what sections are present: overview? responsibilities? tools? certifications? Don't read — survey.
+
+🔬
+Pass 2 — Detailed (5–7 min)
+Read every sentence. Next to each, write a 5-word-or-less remark: "core task," "vague fluff," "specific tool," "legal padding."
+
+🎯
+Pass 3 — Highlight (3 min)
+Bold the required skills and tools. Italicize preferred/nice-to-have skills. Now you have a clean sourcing map.
+
+4
+Classification
+Hard Skill vs Soft Skill vs Tool
+These three categories drive three completely different parts of your process. Confusing them is one of the most common mistakes freshers make.
+
+🧠
+The Simplest Test
+If it's something you do (a verb-based capability) →
+Skill
+(Hard or Soft)
+If it's a system, software, platform, or certification →
+Tool / Technology
+If you can Boolean-search for it and get useful results →
+Hard Skill or Tool
+If it applies to literally any job in any industry →
+Soft Skill — screen for it, don't source it
+🔴 Hard Skill
+Definition
+A teachable, measurable technical ability. Either a candidate has it or they don't.
+Recruiter Use
+PRIMARY sourcing criteria. Boolean-searchable. Missing a key hard skill = immediate disqualification.
+Examples
+Java 11 / Python / SQL
+Spring Boot / REST APIs
+Microservices architecture
+ICD-10 coding / Data modelling
+"Can you walk me through a project where you built a RESTful API using Spring Boot?"
+Watch Out
+"Good at coding" — not a hard skill. That's a description of having hard skills.
+🔵 Soft Skill
+Definition
+An interpersonal or behavioural attribute. Difficult to measure objectively.
+Recruiter Use
+Used for culture fit assessment — not sourcing. You cannot Boolean-search for soft skills.
+Examples
+Communication
+Collaboration / Leadership
+Attention to detail
+Adaptability / Time management
+"Tell me about a time you communicated a complex technical issue to a non-technical stakeholder."
+Watch Out
+Never put "self-starter" or "excellent communicator" in a Boolean string. Zero useful results.
+🟢 Tool
+Definition
+A specific software, platform, machine, or technology used in the role. External to the person.
+Recruiter Use
+Version-specific and often NON-SUBSTITUTABLE. AWS ≠ Azure. Confirm before sourcing.
+Examples
+JIRA / Confluence / Salesforce
+GitHub / Kubernetes / Tableau
+Epic (EMR) / Cerner / SAP
+Jenkins / Docker / ServiceNow
+"You've listed Kubernetes — have you managed production clusters, or dev/staging environments?"
+Watch Out
+"Experience with enterprise software" is not a tool reference. Ask the hiring manager what specific tools the team uses.
+5
+Analysis
+The 4-Step Analysis Framework
+After you've broken down the JD, you analyse it. This is what transforms you from a keyword-matcher into a recruiter who actually understands the role.
+
+🏢
+Step 1 — Client Context
+What does the client do, and how does this role help them do it? A recruiter who understands the business can pitch the role in the language of impact — not just job duties.
+
+🔍
+Step 2 — The Problem Being Solved
+Why does this req exist? Every open role exists because something is missing. Knowing what it is shapes your candidate pitch and tells you the urgency level.
+
+🎬
+Step 3 — Narrator Exercise
+Close the JD and write 3–5 sentences describing a day in the life of this person. If you can narrate it, you understand the role well enough to find the right candidate.
+
+📊
+Step 4 — TSTE Table
+Build the Title/Skills/Tools/Education table before opening any job board. This is the bridge from JD analysis to Boolean search.
+
+Step 2 — The 4 Types of Req (Know Your Urgency Level)
+Req Type	What It Means	Urgency	Candidate Pitch Angle
+Growth Req	Client is expanding — needs more hands	Lower	"Join a growing team" — good for candidates considering stability
+Backfill Req	Someone left — work is piling up	High — need yesterday	Emphasize immediate impact. Candidate should ask why the person left.
+New Capability	Client needs a skill they don't have internally	Urgent AND specific	Emphasize uniqueness. No one on the team can do what they're being hired to do.
+Project Req	Short-term need for a specific project phase	Deadline-driven	Clear scope, defined timeline — good for contractors preferring project-based work
+Step 3 — The Narrator Exercise: 7 Questions to Answer
+Close the JD. Write 3–5 sentences describing a typical day. If you can't answer any of these 7 questions — go back to the JD. If the JD doesn't answer it — ask your manager.
+
+Q1
+What kind of office/environment does this person work in? (Startup? Enterprise HQ? Remote? Hospital unit?)
+Q2
+How does their day start? (Standup? Email review? Production monitoring? Patient rounds?)
+Q3
+In what sequence do they perform their core tasks? (Design → Code → Review → Deploy? Or reactive/interrupt-driven?)
+Q4
+Where and how do the tools appear in their work? (Is AWS used for deployment? Is Spring Boot the framework they build in or maintain?)
+Q5
+What soft skills are actually in play? (Do they present to stakeholders? Lead a team? Coordinate across time zones?)
+Q6
+Do they manage or mentor others? (IC contributor vs tech lead — very different candidate profiles)
+Q7
+Who do they report to and how? (Flat startup → direct to CTO? Large enterprise → multiple layers of managers?)
+✍️ Worked Example — Narrator for: Java Software Engineer, Fintech Payments Platform, Remote
+Alex is a mid-to-senior Java engineer working remotely from EST hours. Their day starts with a 9am standup with an 8-person agile squad — a quick sync on sprint progress, blockers, and deployment status. The team runs 2-week sprints, so Alex has a clear delivery cadence.
+
+The core of their day is feature development: building microservices in Java using the Spring Boot framework — specifically the real-time payment processing module. They write REST API endpoints, test them, and integrate with the existing payment infrastructure. Most of their code runs in AWS (Lambda for event-driven functions, EC2 for services, S3 for storage). They use Jenkins for CI/CD.
+
+Alex owns features end-to-end. This is not a ticket-and-hand-off team — they design, build, test, and deploy. High autonomy. They report to a senior engineering manager but work independently. Communication happens mostly async via Slack and Confluence documentation.
+
+EST remote = time zone matters for sourcing geography
+Spring Boot = the deal-breaker skill in action
+8-person squad = collaboration without management responsibility
+High autonomy = soft skill: self-starter (assess on call, not Boolean)
+End-to-end ownership = IC contributor, not a cog in a machine
+'Seen production Spring Boot' = your first screening question
+6
+TSTE Framework
+TSTE Table — The Bridge to Boolean Search
+Build this table before opening a single job board. This is Step 4 of your analysis. The next module (Boolean Search) will use this as its direct input.
+
+📖
+TSTE = T (Title variations) · S (Required Skills) · T (Required Tools) · E (Education & Experience)
+Each row = one category. Each cell includes what's in the JD + what you research as alternatives. The "Research" row is what freshers most often skip — and it's what separates good searches from great ones.
+
+Category	From the JD	Variations & Alternatives (research these)
+T — Title	Java Software Engineer	Software Developer Application Developer Java Developer Backend Engineer Java Backend Developer Software Engineer II Engineer II (Java)
+S — Skills	Java 11+ · Spring Boot · REST APIs · Microservices	Core Java J2EE Jakarta EE Spring Framework Spring MVC Web services API development SOA Distributed systems
+T — Tools	AWS (EC2, S3, Lambda) · Docker · Kubernetes · Jenkins	Amazon Web Services Container orchestration K8s Helm GitHub Actions CircleCI GitLab CI CI/CD pipelines
+E — Edu/Exp	5+ yrs Java · BS Computer Science preferred	Bachelor's CS Software Engineering IT / MIS Equivalent experience Self-taught + portfolio
+Preferred	AWS · Docker · Kubernetes · Jenkins · Agile/Scrum	Group into ONE OR group in Boolean: (AWS OR Docker OR Kubernetes OR Jenkins OR Agile OR Scrum)
+Research	What do Java Spring Boot developers also use?	Spring Boot 2.x / 3.x Spring Security Spring Data JPA Hibernate Maven Gradle JUnit Mockito Lombok
+💡
+How to do the Research Row:
+Search "Java Spring Boot developer resume" on LinkedIn right now. Note what other skills appear on those resumes. That vocabulary — the words developers actually use for the skills the JD describes — goes into your Research row and gives you better Boolean results than just copying the JD verbatim.
+
+7
+Worked Examples
+Three Complete JD Breakdowns
+See the full framework applied to three real JDs — from entry level to mid-level, across different domains. Each is fully broken down across all stages.
+
+JD 1 — Help Desk Support Specialist
+📍 Dallas, TX · Onsite · Full-time · W2 · Mon–Fri 9am–6pm CST · Entry Level (0–1 yr)
+📋 Stage 1 — Caution Check
+▼
+🔍 Stage 2 — Field Breakdown
+▼
+🎬 Stage 3 — Narrator Exercise (Day in the Life)
+▼
+📊 Stage 4 — TSTE Table
+▼
+JD 2 — Data Entry Specialist (US Healthcare)
+🌐 Remote (US-based only) · Contract 6 months (possible extension) · Healthcare/Insurance · 1–2 yrs exp
+All 4 Stages — Healthcare Data Entry Specialist
+▼
+JD 3 — US IT Recruiter (Internal Pacer-type Role)
+📍 Hyderabad, India · Night Shift · Full-time · US Time Zones · Mid-level
+All 4 Stages — US IT Recruiter
+▼
+8
+Mistakes to Avoid
+The 8 Most Common JD Analysis Mistakes
+Learn these from a reference document — not from a failed placement.
+
+Mistake 01
+Skimming and jumping to sourcing
+Reading the JD for 90 seconds and opening LinkedIn. You will source the wrong people and waste 3+ hours on incorrect candidate profiles.
+
+Mistake 02
+Treating every listed skill as a deal-breaker
+The JD says 12 skills are required. Sourcing for all 12 means finding no one. Always confirm the true 2–3 deal-breakers with your manager first.
+
+Mistake 03
+Ignoring the CAPS LOCK hiring manager note
+The most valuable signal in a poorly formatted JD is the hiring manager's own comment. "MUST HAVE SPRING BOOT — NO EXCEPTIONS." Never skip it.
+
+Mistake 04
+Using soft skills as Boolean keywords
+"Self-starter" in a Boolean string returns irrelevant results. Soft skills are for screening calls, not for sourcing on job boards.
+
+Mistake 05
+Not flagging missing fields before sourcing
+Starting sourcing without a confirmed pay rate, location type, or shift means your first 10 calls are just collecting data you should have had upfront.
+
+Mistake 06
+Skipping the narrator exercise
+Recruiters who can't narrate the role submit technically-qualified candidates who are wrong for the team, the culture, or the work style. The placement fails.
+
+Mistake 07
+Trusting education requirements literally
+"PhD required" often means "Master's preferred." Always clarify with manager before filtering out candidates on education alone.
+
+Mistake 08
+Not building the TSTE table before Boolean
+Going into Boolean without title variants and skill alternatives means a narrow search pool. The TSTE table takes 10 minutes and saves hours of sourcing time.
+
+⚡ Quick Reference — Your JD Analysis Checklist
+Before You Start
+Read the req header first (title, location, rate, duration)
+Use Posting JD — never Original JD for candidate sharing
+Confirm client name / confidentiality status
+Caution Check
+Spot formatting issues, rebuild structure
+Translate all fluffy phrases
+Apply 80/20 — confirm 3 deal-breakers with manager
+Break It Down
+Extract all 14 fields
+Flag every blank field before sourcing
+Classify: Hard Skill / Soft Skill / Tool
+Analyse It
+Research the client's business
+Identify req type (growth/backfill/new/project)
+Complete the 7-question narrator exercise
+Build the TSTE table before opening Boolean
+9
+Self-Test
+Test Your Understanding
+Answer these before your training session (to check your pre-read comprehension) and again after (to test retention). Click an option to check your answer.
+
+Q1. A JD arrives with 14 listed requirements. What is your first action?
+Source against all 14 requirements — the JD is the final word on what the client wants.
+Assume inflation. Apply the 80/20 rule and confirm the real deal-breakers with manager before sourcing.
+Ask the candidate which skills they have before deciding.
+Q2. The JD says "MUST HAVE SPRING BOOT — NO EXCEPTIONS" in the middle of a paragraph dump. What does this tell you?
+It's a formatting error — ignore the CAPS LOCK text.
+This is a hiring manager comment — Spring Boot is the deal-breaker that will cause immediate rejection if missing.
+Spring Boot is probably just a nice-to-have preference.
+Q3. "Strong communication skills" appears in the requirements section. You should:
+Include it as a Boolean keyword — it's in the required section.
+Screen out candidates who don't explicitly list communication skills on their resume.
+Translate it by looking at responsibilities for the actual communication context — assess it on the screening call, not in your Boolean string.
+Q4. The difference between a Job Description (JD) and a Job Requisition (Req) is:
+They are the same document with different names.
+The JD describes the role. The Req is the financial/business approval to hire — contains budget, rate, and timeline.
+The JD is only for the candidate to read; the req is the recruiter's private document.
+Q5. When building the TSTE table, the "Research" row is for:
+Researching the candidate's background and LinkedIn profile.
+Finding co-occurring skills and vocabulary that candidates actually use — to build a more complete Boolean search than just copying the JD.
+Researching the client company's industry background.
+Q6. "ServiceNow" in a job description is classified as a:
+Hard skill — it's a technical requirement
+Soft skill — it involves how people work together
+Tool — it's a specific software platform used in the role
+📋 Progress Tracker — Before and After Training
+Check off each concept as you feel confident with it. Use this for revision planning.
+
+JD Analysis Competency Checklist
+
+I understand what a JD is and why it should not be trusted as-is
+
+I can distinguish between a JD and a Job Requisition (Req)
+
+I can identify and explain all 3 caution types: poorly formatted, fluffy language, inflated demands
+
+I can apply the 80/20 rule to any JD and identify the top 3 deal-breakers
+
+I can extract all 14 fields and flag missing ones before sourcing
+
+I can correctly classify any JD element as Hard Skill, Soft Skill, or Tool
+
+I can identify the 4 types of req (growth, backfill, new capability, project) and explain urgency differences
+
+I can complete the 7-question narrator exercise for any given role
+
+I can build a complete TSTE table from a JD including the Research row
+
+I know all 8 common JD analysis mistakes and can describe how to avoid each one
+10
+Glossary
+Key Terms — Quick Reference
+Use this when you encounter any of these terms in training, in the VMS, or on the job.
+
+JD (Job Description)
+Document describing a role's responsibilities, skills, tools, qualifications. Starting point — not final truth. Created by hiring manager, modified by HR and legal.
+Job Requisition (Req)
+Business/financial approval to hire. Contains client name, req number, budget, timeline, and bill rate. NOT the same as a JD. Read the req header before the JD.
+VMS (Vendor Management System)
+Software platform clients use to manage their staffing vendors and post job orders. Job orders arrive here. Examples: Beeline, Fieldglass, Coupa, Wand.
+ATS (Applicant Tracking System)
+Your internal database for tracking candidates and submissions. Ceipal is your ATS at Pacer Group.
+HRIS
+Human Resources Information System. Client's internal HR software (e.g., Workday, SAP). JDs are often exported from HRIS — causing formatting loss.
+Deal-breaker
+A requirement whose absence causes automatic rejection of a candidate at the client submission or interview stage. Confirm with manager before sourcing. Typically 1–3 per req.
+Hard Skill
+Teachable, measurable technical ability. Either a candidate has it or they don't. PRIMARY sourcing criteria. Boolean-searchable. Examples: Java, SQL, Spring Boot, ICD-10 coding.
+Soft Skill
+Interpersonal/behavioural attribute. Cannot be Boolean-searched. Assessed on the screening call. Examples: communication, leadership, adaptability, attention to detail.
+Tool
+External software, platform, or technology used in the role. Version-specific. Often non-substitutable (AWS ≠ Azure). Examples: JIRA, Tableau, Epic EMR, Jenkins, Cerner.
+Boolean Search
+Search technique using AND/OR/NOT operators to find candidates. Built from the TSTE table. Covered in your next module (Topic 3). Example: ("Java Developer" OR "Java Engineer") AND "Spring Boot"
+TSTE Table
+Pre-Boolean analysis framework: Title variations, Skills (required), Tools (required), Education/Experience + Preferred skills + Research alternatives. Built before opening any job board.
+Narrator Exercise
+Technique where the recruiter closes the JD and writes 3–5 sentences describing a typical day in the role. Answers 7 specific questions. Proves role understanding before sourcing.
+80/20 Rule (for JDs)
+80% of the role's value comes from 20% of the listed requirements. Used to identify deal-breakers vs. noise when a JD has too many listed requirements.
+Original JD vs Posting JD
+Original = as received from client (may contain internal info, garbled format). Posting = cleaned, formatted, client info removed. Always share Posting JD with candidates.
+EEO Statement
+Equal Employment Opportunity legal disclaimer found at the end of most JDs. Boilerplate. Ignore for sourcing — adds zero candidate criteria.
+HIPAA
+Health Insurance Portability and Accountability Act. US law governing patient data privacy. A non-negotiable compliance requirement for all healthcare data roles. Awareness is often a deal-breaker for those roles.
+Pacer Staffing · L&D Training · Week 2 · Topic 2 — Job Description Breakdown & Analysis
+Recruitment Executives Training Programme · New Hire Cohort
+First read before training · Revision reference during training period · Quick reference on the job
